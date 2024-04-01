@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f3640;
+}
+
+h1 {
+  @apply text-4xl  text-center;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_skills {
+  width: 160px;
+  min-height: 160px;
+  padding: 5px;
+  box-shadow: inset 0px 10px 20px 0px rgba(255, 255, 255, 0.5);
+  transition: 0.4s ease-in-out;
+  backdrop-filter: blur(7px) saturate(94%);
+  -webkit-backdrop-filter: blur(7px) saturate(94%);
+  background-color: rgba(17, 25, 40, 0.34);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.card_proyectos {
+  width: 300px;
+  min-height: 300px;
+  box-shadow: inset 0px 10px 20px 0px rgba(255, 255, 255, 0.5);
+  transition: 0.4s ease-in-out;
+  backdrop-filter: blur(7px) saturate(94%);
+  -webkit-backdrop-filter: blur(7px) saturate(94%);
+  background-color: rgba(17, 25, 40, 0.34);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.card_tecnologias {
+  width: 60px;
+  min-height: 60px;
+  padding: 5px;
+  box-shadow: inset 0px 10px 20px 0px rgba(255, 255, 255, 0.5);
+  transition: 0.4s ease-in-out;
+  backdrop-filter: blur(7px) saturate(94%);
+  -webkit-backdrop-filter: blur(7px) saturate(94%);
+  background-color: rgba(17, 25, 40, 0.34);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  overflow: hidden;
+  text-align: center;
+  
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 70px;
+  aspect-ratio: 1;
+  background:
+    radial-gradient(farthest-side,#ffa516 90%,#0000) center/16px 16px,
+    radial-gradient(farthest-side,green   90%,#0000) bottom/12px 12px;
+  background-repeat: no-repeat;
+  animation: l17 1s infinite linear;
+  position: relative;
+}
+.loader::before {    
+  content:"";
+  position: absolute;
+  width: 8px;
+  aspect-ratio: 1;
+  inset: auto 0 16px;
+  margin: auto;
+  background: #ccc;
+  border-radius: 50%;
+  transform-origin: 50% calc(100% + 10px);
+  animation: inherit;
+  animation-duration: 0.5s;
+}
+@keyframes l17 { 
+  100%{transform: rotate(1turn)}
+}
