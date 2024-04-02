@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useContext, useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import {RxHamburgerMenu} from 'react-icons/rx'
 import {AiOutlineClose} from 'react-icons/ai'
@@ -26,7 +26,7 @@ export default function Nav() {
 
         <div className="flex w-full h-full  justify-between p-6 text-blanco ">
       <div>
-        <a className="text-2xl" href="#home">Marlon</a>
+      <p className="text-xl">Marlon  <span className="text-complementario font-bold">.Dev</span></p>
       </div>
     <div className= "menu" id="menu">
       <a href="#home">Home</a>

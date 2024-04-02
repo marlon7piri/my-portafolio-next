@@ -99,7 +99,7 @@ export const dataProyect = [
 const Project = () => {
   return (
     <div className="section">
-      <TheTitle texto="Proyects" />
+      <TheTitle texto="Proyectos" />
 
       <div
         className="  w-[90%]  h-full flex flex-wrap gap-20 
