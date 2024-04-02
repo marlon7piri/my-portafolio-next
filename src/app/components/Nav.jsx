@@ -22,9 +22,9 @@ export default function Nav() {
 
 
   return (
-    <div className="nav_container w-full  ">
+    <div className=" w-full  ">
 
-        <div className="flex w-full h-full  justify-between p-6 text-blanco ">
+        <div className="flex w-full h-full  justify-between  p-6 text-blanco ">
       <div>
       <p className="text-xl">Marlon  <span className="text-complementario font-bold">.Dev</span></p>
       </div>
@@ -41,7 +41,7 @@ export default function Nav() {
    
     
 
-     <div className="flex justify-center items-center ">{!show ? <AiOutlineClose className=" icon_hamburguer  " id="icono_hamburguesa" onClick={()=>handelToggle()}/>:<RxHamburgerMenu onClick={()=>handelToggle()} className="icono_close"/>}</div>
+    {!show ? <AiOutlineClose className=" icon_hamburguer  " id="icono_hamburguesa" onClick={()=>handelToggle()}/>:<RxHamburgerMenu onClick={()=>handelToggle()} className="icono_close"/>}
     </div>
     </div>
   );
