@@ -38,6 +38,8 @@ h1 {
   background-position:center;
   background-size: cover;
   mask-image: linear-gradient(#0a0b0c 80%, transparent);
+  background-attachment: fixed;
+ 
 
 }
 
