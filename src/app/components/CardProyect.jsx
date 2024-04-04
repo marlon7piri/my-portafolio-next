@@ -6,7 +6,7 @@ const CardProyect = ({ item }) => {
   return (
     <Link
       href={`/detalles/${item.id}`}
-      className="card_proyectos"
+      className="card_proyectos hover:scale-105 duration-700"
       key={item.id}
     >
       <Image

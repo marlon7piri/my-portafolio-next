@@ -57,11 +57,11 @@ const tecnologies = [
 const Skills = () => {
   return (
     <div className="section">
-      <TheTitle texto="Lenguajes de Programacion y Tecnologías con las que trabajo" />
+      <TheTitle texto="Lenguajes de Programacion y Tecnologías con las que trabajo"  />
 
       <div
         className=" w-[90%]  h-full flex flex-wrap gap-20 
-        justify-center  items-center"
+        justify-center  items-center" id='skills'
       >
         {tecnologies.map((tecno) => {
           return (

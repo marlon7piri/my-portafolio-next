@@ -37,6 +37,8 @@ const Detalles = ({ params }) => {
                   src={item.image}
                   width={800}
                   height={800}
+                  
+                  
                   style={{
                     borderRadius: 20,
                     objectFit: "cover",

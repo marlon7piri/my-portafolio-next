@@ -19,6 +19,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth
+
 }
 
 body {
@@ -29,18 +31,14 @@ h1 {
   @apply text-4xl  text-center;
 }
 
-.header_container{
+.header_container {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background-image:url('/fondo.jpg') ;
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-  mask-image: linear-gradient(#0a0b0c 80%, transparent);
-  background-attachment: fixed;
- 
-
+  
+  
+ /*  mask-image: linear-gradient(#0a0b0c 80%, transparent);
+  background-attachment: fixed; */
 }
 
 .section {
@@ -66,7 +64,6 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.125);
   overflow: hidden;
   text-align: center;
-  
 }
 
 .card_proyectos {
@@ -81,7 +78,6 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.125);
   overflow: hidden;
   text-align: center;
-  
 }
 
 .card_tecnologias {
@@ -97,9 +93,7 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.125);
   overflow: hidden;
   text-align: center;
-  
 }
-
 
 .menu {
   width: 100%;
@@ -134,15 +128,15 @@ h1 {
 .loader {
   width: 70px;
   aspect-ratio: 1;
-  background:
-    radial-gradient(farthest-side,#ffa516 90%,#0000) center/16px 16px,
-    radial-gradient(farthest-side,green   90%,#0000) bottom/12px 12px;
+  background: radial-gradient(farthest-side, #ffa516 90%, #0000) center/16px
+      16px,
+    radial-gradient(farthest-side, green 90%, #0000) bottom/12px 12px;
   background-repeat: no-repeat;
   animation: l17 1s infinite linear;
   position: relative;
 }
-.loader::before {    
-  content:"";
+.loader::before {
+  content: "";
   position: absolute;
   width: 8px;
   aspect-ratio: 1;
@@ -154,8 +148,10 @@ h1 {
   animation: inherit;
   animation-duration: 0.5s;
 }
-@keyframes l17 { 
-  100%{transform: rotate(1turn)}
+@keyframes l17 {
+  100% {
+    transform: rotate(1turn);
+  }
 }
 
 @media (width < 614px) {
@@ -199,6 +195,17 @@ h1 {
     font-size: 30px;
     display: block;
   }
-
- 
 }
+
+.parrafo {
+  color: aliceblue;
+
+  width: 60%;
+  z-index: 50;
+}
+
+.cambiarFondoNav{
+  background-color: red;
+}
+
+

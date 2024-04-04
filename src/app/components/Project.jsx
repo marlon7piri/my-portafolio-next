@@ -103,7 +103,7 @@ const Project = () => {
 
       <div
         className="  w-[90%]  h-full flex flex-wrap gap-20 
-      justify-center  items-center animate-pulse duration-700"
+      justify-center  items-center " id='proyects'
       >
         {dataProyect.map((tecno) => {
           return <CardProyect item={tecno} key={tecno.id} />;

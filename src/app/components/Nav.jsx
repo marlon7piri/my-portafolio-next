@@ -14,24 +14,27 @@ export default function Nav() {
     setShow(!show);
   };
 
+ 
+
   return (
     <div className=" w-full  ">
       <div className="flex w-full h-full  justify-between  p-6 text-blanco ">
-        <div className="flex gap-2 w-full ">
-          <p className="text-2xl font-bold">
+        <div className="nav_container flex gap-2 w-full ">
+          <p className="text-2xl font-bold text-primario">
             Marlon <span className="text-complementario">.Dev</span>
           </p>
         </div>
         <div className="menu" id="menu">
           <a href="#home">Home</a>
-          <a href="#about" onClick={handelToggle}>
+          <a href="#sobre_mi" onClick={handelToggle}>
             Sobre Mi
           </a>
-          <a href="#proyectos" onClick={handelToggle}>
-            Proyectos
-          </a>
+          
           <a href="#skills" onClick={handelToggle}>
             Habilidades
+          </a>
+          <a href="#proyects" onClick={handelToggle}>
+            Proyectos
           </a>
           <a href="#services" onClick={handelToggle}>
             Servicios

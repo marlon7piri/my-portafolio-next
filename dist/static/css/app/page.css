@@ -1,0 +1,24 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/navbar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_container_title_header__onwfV {
+  background-color: aliceblue;
+}
+
+.navbar_title__zf21c {
+  color:white;
+  font-size: clamp(3rem, 1rem, 70%);
+}
+
+.navbar_overlay__TumLq {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.439);
+  
+  position: absolute;
+}
+
+.navbar_cambiar_color__7KQeD{
+  color:#ff0000
+}
+
