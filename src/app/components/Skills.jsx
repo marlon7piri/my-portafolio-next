@@ -8,47 +8,67 @@ const tecnologies = [
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "react",
     path: "/icons/react.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "javascript",
     path: "/icons/javascript.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "html",
     path: "/icons/html.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "css",
     path: "/icons/css.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "mongo",
     path: "/icons/mongo.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "node",
     path: "/icons/node.svg",
     size: 160,
   },
   {
+    tecnologia: "mysql",
+    path: "/icons/mysql.svg",
+    size: 160,
+  },
+  {
+    tecnologia: "java",
+    path: "/icons/java.svg",
+    size: 160,
+  },
+  {
+    tecnologia: "aws",
+    path: "/icons/aws.svg",
+    size: 160,
+  },
+  {
     tecnologia: "next",
+    path: "/icons/git.svg",
+    size: 160,
+  },
+  {
+    tecnologia: "figma",
     path: "/icons/figma.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "tailwindcss",
     path: "/icons/tailwindcss.svg",
     size: 160,
   },
   {
-    tecnologia: "next",
+    tecnologia: "express",
     path: "/icons/express.svg",
     size: 160,
   },
@@ -57,7 +77,7 @@ const tecnologies = [
 const Skills = () => {
   return (
     <div className="section">
-      <TheTitle texto="Lenguajes de Programacion y Tecnologías con las que trabajo"  />
+      <TheTitle texto="Lenguajes de Programación y Tecnologías con las que trabajo"  />
 
       <div
         className=" w-[90%]  h-full flex flex-wrap gap-20 

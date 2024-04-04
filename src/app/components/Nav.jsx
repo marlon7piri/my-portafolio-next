@@ -36,9 +36,7 @@ export default function Nav() {
           <a href="#proyects" onClick={handelToggle}>
             Proyectos
           </a>
-          <a href="#services" onClick={handelToggle}>
-            Servicios
-          </a>
+          
         </div>
 
         {!show ? (

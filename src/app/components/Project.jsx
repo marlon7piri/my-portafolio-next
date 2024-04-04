@@ -17,6 +17,8 @@ export const dataProyect = [
       "/icons/react.svg",
       "/icons/html.svg",
       "/icons/css.svg",
+      "/icons/vite.svg",
+      "/icons/tailwindcss.svg",
     ],
   },
   {
@@ -27,7 +29,7 @@ export const dataProyect = [
     description:
       "Aplicacion de escritorio programado con Java, Netbeans como IDE, donde agregas productos, clientes, proveedores, imprimes datos en pdf,excel, realizando consultas a una base de datos de MySql, actualmente continuo trabajando en dicho proyecto.",
     ruta: "https://github.com/marlon7piri/SistemaVentaJava",
-    tecnologias: ["/icons/java.svg", "/icons/mysql.svg", "/icons/netbeans.svg"],
+    tecnologias: ["/icons/java.svg", "/icons/mysql.svg"],
   },
   {
     id: 3,
@@ -42,6 +44,8 @@ export const dataProyect = [
       "/icons/javascript.svg",
       "/icons/html.svg",
       "/icons/css.svg",
+      "/icons/vite.svg",
+      "/icons/tailwindcss.svg",
     ],
   },
   {
@@ -57,6 +61,8 @@ export const dataProyect = [
       "/icons/javascript.svg",
       "/icons/html.svg",
       "/icons/css.svg",
+      "/icons/vite.svg",
+      "/icons/tailwindcss.svg",
     ],
   },
   {
@@ -72,6 +78,8 @@ export const dataProyect = [
       "/icons/javascript.svg",
       "/icons/html.svg",
       "/icons/css.svg",
+      "/icons/vite.svg",
+      "/icons/tailwindcss.svg",
     ],
   },
   {
@@ -99,11 +107,19 @@ export const dataProyect = [
 const Project = () => {
   return (
     <div className="section">
-      <TheTitle texto="Proyectos" />
+      <div className="flex ">
+        <TheTitle texto="Proyectos" />
+      </div>
+      <p className="max-w-[60%]  text-complementario mb-20">
+        Aqui podrá ver mis proyectos trabajados, algunos de mis proyectos
+        trabajados, las dificultades que presenté y como las solucione. Espero
+        que les guste
+      </p>
 
       <div
         className="  w-[90%]  h-full flex flex-wrap gap-20 
-      justify-center  items-center " id='proyects'
+      justify-center  items-center "
+        id="proyects"
       >
         {dataProyect.map((tecno) => {
           return <CardProyect item={tecno} key={tecno.id} />;

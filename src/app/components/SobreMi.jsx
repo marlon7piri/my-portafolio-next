@@ -3,23 +3,22 @@ import TheTitle from "./TheTitle";
 
 const SobreMi = () => {
   return (
-    <div className="section" id='sobre_mi'>
-      
+    <div className="section" id="sobre_mi">
       <TheTitle texto="Sobre Mi" />
-      
 
-      <div className="w-[80%]   relative min-h-[200px] border-l-2 border-complementario p-2 " >
+      <div className="w-[80%]   relative min-h-[200px] border-l-2 border-complementario p-2 -z-50">
         <p className="parrafo">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad porro ex
-          placeat cum repellendus libero dolor eius iure doloribus voluptate,
-          numquam, aliquam quisquam deserunt, possimus a error rerum atque
-          velit!
-<br></br>
-<br></br>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad porro ex
-          placeat cum repellendus libero dolor eius iure doloribus voluptate,
-          numquam, aliquam quisquam deserunt, possimus a error rerum atque
-          velit!
+          Hola a todos, soy desarrollador web junior, estudio de forma
+          autodidacta y actualmente me encuentro cursando el bachiller de
+          Ingeniería en Sistemas Computacionales.
+          <br></br>
+          <br></br>
+          Tengo conocimientos en lenguajes de programación tanto del backend como el frontend, actualmente estoy
+          aprendiendo React Native, donde estoy implementando mis conocimientos
+          en proyectos colaborativos junto con amigos que están en el mismo
+          rubro, me gusta aprender cosas nuevas por lo que escucho consejos
+          constructivos. Muchas gracias, en mi perfil pueden ver proyectos
+          individuales en los que he trabajado.
         </p>
 
         <div className="w-4 h-4 absolute -top-2 -left-2 bg-complementario rounded-full"></div>

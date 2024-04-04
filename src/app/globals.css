@@ -25,6 +25,7 @@
 
 body {
   background-color: #0a0b0c;
+  
 }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
   width: 100%;
   min-height: 100vh;
   padding: 20px;
+  margin: 100px 0px;
   display: flex;
   justify-content: center;
   flex-direction: column;
