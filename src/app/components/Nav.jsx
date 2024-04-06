@@ -14,7 +14,7 @@ export default function Nav() {
     document.getElementById("menu").classList.toggle("show_menu");
     setShow(!show);
   };
-  document.addEventListener("scroll", () => {
+  window.addEventListener("scroll", () => {
     let scroll = scrollY;
     setIsGoDown(scroll);
   });
