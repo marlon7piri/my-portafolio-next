@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
@@ -14,10 +14,13 @@ export default function Nav() {
     document.getElementById("menu").classList.toggle("show_menu");
     setShow(!show);
   };
-  window.addEventListener("scroll", () => {
-    let scroll = scrollY;
-    setIsGoDown(scroll);
-  });
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      let scroll = scrollY;
+      setIsGoDown(scroll);
+    });
+  }, []);
 
   return (
     <div
