@@ -61,6 +61,7 @@
   top: 10;
   display: block;
   padding: 20px;
+  filter: brightness(0.7);
 
   animation: animationcloud2 45s ease infinite;
   z-index: 10;
@@ -76,6 +77,8 @@
   top: 10;
   display: block;
   padding: 20px;
+  filter: brightness(0.7);
+
   /*  mask-image: linear-gradient(#0a0b0c 20%, transparent); */
   animation: animationcloud 45s ease infinite;
   z-index: 20;

@@ -37,7 +37,7 @@ export default function Nav() {
           </p>
         </div>
         <div className="menu" id="menu">
-          <a href="#home">Home</a>
+          
           <a href="#sobre_mi" onClick={handelToggle}>
             Sobre Mi
           </a>
