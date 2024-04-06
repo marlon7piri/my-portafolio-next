@@ -107,7 +107,7 @@ export const dataProyect = [
 const Project = () => {
   return (
     <div className="section">
-      <div className="flex ">
+      <div className="flex mt-20">
         <TheTitle texto="Proyectos" />
       </div>
       <p className="max-w-[60%]  text-complementario mb-20">

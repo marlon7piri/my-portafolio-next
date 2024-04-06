@@ -1,20 +1,130 @@
+.contenedor_navegacion {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  transition: 0.3s ease;
+}
+
+.contenedor_navegacion_bajando {
+  width: 100%;
+  background-color: rgba(2, 2, 2, 0.587);
+  box-shadow: inset 0px 10px 25px -3px #1289a7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  transition: 0.3s ease;
+}
+
 .container_title_header {
   background-color: aliceblue;
+  position: relative;
 }
 
 .title {
-  color:white;
+  color: white;
   font-size: clamp(3rem, 1rem, 70%);
+  z-index: 200;
 }
 
 .overlay {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.439);
-  
+
   position: absolute;
 }
 
-.cambiar_color{
-  color:#ff0000
+.luna {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  right: 200px;
+  top: 10;
+  display: block;
+  padding: 20px;
+  /*  mask-image: linear-gradient(#0a0b0c 20%, transparent); */
+  animation: animationluna 15s ease infinite;
+  z-index: 15;
+  filter: brightness(0.7);
+  transition: all 3s;
+}
+.cloud {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+  right: 20px;
+  top: 10;
+  display: block;
+  padding: 20px;
+
+  animation: animationcloud2 45s ease infinite;
+  z-index: 10;
+
+  transition: 10s ease;
+}
+.cloud2 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+  right: 350px;
+  top: 10;
+  display: block;
+  padding: 20px;
+  /*  mask-image: linear-gradient(#0a0b0c 20%, transparent); */
+  animation: animationcloud 45s ease infinite;
+  z-index: 20;
+
+  transition: 10s ease;
+}
+
+
+@keyframes animationluna {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes animationcloud {
+  0% {
+    transform: translateY(5%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(5%);
+  }
+}
+@keyframes animationcloud2 {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media (width < 800px) {
+  .luna {
+    position: absolute;
+    right: 0;
+    bottom: -110px;
+  }
 }

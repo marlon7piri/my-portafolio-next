@@ -21,7 +21,7 @@ const Detalles = ({ params }) => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen flex justify-center items-center flex-col gap-8">
+    <div className="w-full min-h-screen flex  items-center flex-col p-8">
       <h1 className="text-blanco text-5xl"></h1>
       <TheTitle
         texto={` Detalles del Proyecto ${proyecto.map((item) => item.nombre)}`}
@@ -50,11 +50,8 @@ const Detalles = ({ params }) => {
 
                 <PrimaryButton islink={item.ruta} />
               </div>
-              <div className="w-full mt-4 p-8 ">
-                <span className="md:max-w-[90%] lg:w-max-[600px] text-complementario text-xl">
-                  {item.description}
-                </span>
-                <div className="mt-10">
+
+              <div className="mt-10">
                   <span className="text-complementario text-2xl">
                     Tecnologias Utilizadas:
                   </span>
@@ -73,8 +70,14 @@ const Detalles = ({ params }) => {
                       );
                     })}
                   </div>
-                </div>
+                  <div className="w-full mt-4 p-8 ">
+                <span className="md:max-w-[90%] lg:w-max-[600px] text-complementario text-xl">
+                  {item.description}
+                </span>
+                
               </div>
+                </div>
+              
             </>
           );
         })}

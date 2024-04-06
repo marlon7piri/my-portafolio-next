@@ -4,21 +4,30 @@ import React, { useState } from "react";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
-import style from './navbar.module.css'
+import style from "./navbar.module.css";
 
 export default function Nav() {
   const [show, setShow] = useState(true);
+  const [isGoDown, setIsGoDown] = useState(0);
 
   const handelToggle = () => {
     document.getElementById("menu").classList.toggle("show_menu");
     setShow(!show);
   };
-
- 
+  document.addEventListener("scroll", () => {
+    let scroll = scrollY;
+    setIsGoDown(scroll);
+  });
 
   return (
-    <div className=" w-full  ">
-      <div className="flex w-full h-full  justify-between  p-6 text-blanco ">
+    <div
+      className={
+        isGoDown < 10
+          ? style.contenedor_navegacion
+          : style.contenedor_navegacion_bajando
+      }
+    >
+      <div className="w-full flex justify-between p-4">
         <div className="nav_container flex gap-2 w-full ">
           <p className="text-2xl font-bold text-primario">
             Marlon <span className="text-complementario">.Dev</span>
@@ -29,14 +38,13 @@ export default function Nav() {
           <a href="#sobre_mi" onClick={handelToggle}>
             Sobre Mi
           </a>
-          
+
           <a href="#skills" onClick={handelToggle}>
             Habilidades
           </a>
           <a href="#proyects" onClick={handelToggle}>
             Proyectos
           </a>
-          
         </div>
 
         {!show ? (

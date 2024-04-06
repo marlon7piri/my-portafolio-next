@@ -81,7 +81,7 @@ const Skills = () => {
 
       <div
         className=" w-[90%]  h-full flex flex-wrap gap-20 
-        justify-center  items-center" id='skills'
+        justify-center  items-center " id='skills'
       >
         {tecnologies.map((tecno) => {
           return (
