@@ -17,10 +17,10 @@ const Header = () => {
           className=" w-max mt-24 flex flex-col gap-4" /* {style.container_title_header} */
         >
           <h1 className={style.title}>
-            Hola! , soy{" "}
-            <span className="text-primario font-bold text-5xl">Marlon</span>
+            Hola!, soy{" "}
+            <b className="text-primario font-black text-6xl">Marlon</b>
           </h1>
-          <p className="text-complementario z-50">Programador Full Stack</p>
+          <p className="text-complementario text-2xl z-50">Programador Full Stack</p>
           <div className="flex gap-2">
             <a
               href="https://www.linkedin.com/in/marlon-rodriguez-rivera/"

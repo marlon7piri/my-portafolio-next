@@ -1,7 +1,10 @@
-import React from "react";
+"use client";
+
+import React, { useRef } from "react";
 
 import TheTitle from "./TheTitle";
 import CardProyect from "./CardProyect";
+import { motion } from "framer-motion";
 
 export const dataProyect = [
   {
@@ -21,7 +24,7 @@ export const dataProyect = [
       "/icons/tailwindcss.svg",
     ],
     logros: [
-      "1.Poder organizar cada producto en su categoria correspondiente mediante un renderizado condicional utilizando la url.",
+      "1. Poder organizar cada producto en su categoria correspondiente mediante un renderizado condicional utilizando la url.",
       "2. Renderizar los productos y mostrarlos en una UI agradable y bonita",
       "3. Diseñado en Figma y desplegado en Netlify.",
     ],
@@ -140,14 +143,14 @@ export const dataProyect = [
       "4. Crear rutas privadas según el rol del usuario.",
       /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
       ,
-  ],
-  github: "    https://github.com/marlon7piri/clone-invu_app"
-  
-
+    ],
+    github: "    https://github.com/marlon7piri/clone-invu_app",
   },
 ];
 
 const Project = () => {
+  const scrollRef = useRef(null);
+
   return (
     <div className="section">
       <div className="flex mt-20">

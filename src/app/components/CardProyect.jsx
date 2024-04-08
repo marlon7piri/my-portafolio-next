@@ -1,12 +1,20 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const CardProyect = ({ item }) => {
+  const scrollRef = useRef(null);
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, scale: 0 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.1 }}
+      /* viewport={{ root: scrollRef }} */
+      ref={scrollRef}
       className="card_proyectos  flex flex-col justify-between"
       key={item.id}
     >
@@ -32,7 +40,7 @@ const CardProyect = ({ item }) => {
           </div>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

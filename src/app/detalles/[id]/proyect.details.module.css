@@ -27,11 +27,14 @@
   }
 
   & .tecnology {
-    min-width: 44px;
-    min-height: 44px;
+    min-width: 64px;
+    min-height: 64px;
+    box-shadow: inset 0px 10px 20px 0px rgba(72, 66, 66, 0.885);
+    transition: 0.4s ease-in-out;
     backdrop-filter: blur(7px) saturate(94%);
     -webkit-backdrop-filter: blur(7px) saturate(94%);
-    background-color: rgba(215, 220, 228, 0.857);
+   
+    background-color: rgba(236, 239, 243, 0.34);
     border-radius: 10px;
     padding: 5px;
   }
