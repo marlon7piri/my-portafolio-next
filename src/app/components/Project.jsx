@@ -122,7 +122,7 @@ export const dataProyect = [
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
     description:
-      "Piri es una aplicación  de control de inventarios que puede ser utilizada tanto en restaurantes y hoteles, como en otros establecimientos donde sea necesario hacer inventarios, me inspire en crear Piri ya que en el restaurante donde trabajo actualmente como encargado, diariamente realizan conteos de inventarios de los 30 productos más vendidos. Y todos los días se necesitaban hacer impresiones en hojas de esos 30 productos, entonces tuve la idea de implementar mis conocimientos para reserver ese problema y ese gasto de hojas innecesarias y facilitar a los trabajadores este proceso de conteo y de registro pudiendo hacer esta tarea mucho más sencilla ya que pueden realizarla desde cualquier dispositivo mobile. ",
+      "Puede ver la aplicación web utilizando las siguientes credenciales email: test@gmail.com, password: 1234. Piri es una aplicación  de control de inventarios que puede ser utilizada tanto en restaurantes y hoteles, como en otros establecimientos donde sea necesario hacer inventarios, me inspire en crear Piri ya que en el restaurante donde trabajo actualmente como encargado, diariamente realizan conteos de inventarios de los 30 productos más vendidos. Y todos los días se necesitaban hacer impresiones en hojas de esos 30 productos, entonces tuve la idea de implementar mis conocimientos para reserver ese problema y ese gasto de hojas innecesarias y facilitar a los trabajadores este proceso de conteo y de registro pudiendo hacer esta tarea mucho más sencilla ya que pueden realizarla desde cualquier dispositivo mobile. ",
     ruta: "https://clone-invu-app.vercel.app/",
     tecnologias: [
       "/icons/next.svg",
@@ -137,7 +137,7 @@ export const dataProyect = [
       "1. Cree un proyecto Full Stack trabajando con base de datos NoSQL como lo es MongoDB",
       "2. Comprender el framework Next.js utilizando las nuevas características de Server Side Rendering.",
       "3. Implementar autenticación del usuario utilizando nextAuth, permitiendole al usuario iniciar sesión con su email y contraseña.",
-      "4. Crear rutas privadas según el rol del usuario. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234",
+      "4. Crear rutas privadas según el rol del usuario.",
       /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
       ,
   ],
