@@ -1,0 +1,54 @@
+.container_details {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+
+  padding: 2rem;
+
+  & .proyect_details {
+    max-width: 800px;
+    max-height: 400px;
+  }
+  & .image_proyect {
+    max-width: 800px;
+    max-height: 400px;
+    object-fit: contain;
+    aspect-ratio: 2/1;
+  }
+
+  & .tecnology_container {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  & .tecnology {
+    min-width: 44px;
+    min-height: 44px;
+    backdrop-filter: blur(7px) saturate(94%);
+    -webkit-backdrop-filter: blur(7px) saturate(94%);
+    background-color: rgba(215, 220, 228, 0.857);
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  & .logros_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  @media (width<600px) {
+    flex-direction: column;
+    width: 100%;
+    /*   padding: 10px; */
+
+    .image_proyect {
+      width: 350px;
+
+      object-fit: contain;
+    }
+  }
+}

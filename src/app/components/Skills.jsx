@@ -77,7 +77,7 @@ const tecnologies = [
 const Skills = () => {
   return (
     <div className="section">
-      <TheTitle texto="Lenguajes de Programación y Tecnologías con las que trabajo"  />
+      <TheTitle texto="Lenguajes de Programación y Tecnologías con las que trabajo"   />
 
       <div
         className=" w-[90%]  h-full flex flex-wrap gap-20 
