@@ -17,7 +17,6 @@ const Detalles = ({ params }) => {
       return item.id === parseInt(idProyecto);
     });
 
-  
     setProyecto(proyectfilter);
     setLoading(false);
   }, []);
@@ -27,13 +26,22 @@ const Detalles = ({ params }) => {
       <div className="text-center">
         <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} />
       </div>
-      <div className=" flex gap-4 justify-center items-center p-4">
+      <div className=" flex gap-4 justify-center items-center p-4 ">
         <PrimaryButton />
         <PrimaryButton islink={proyecto.map((item) => item.ruta)} />
+        <a
+          href={proyecto.map((item) => item.github)}
+          target="_blank"
+          className=" w-max h-max text-complementario p-3 rounded-md flex justify-center items-center text-xl shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 mt-4"
+        >
+          {" "}
+          <ion-icon name="logo-github"></ion-icon>
+          <span>Repositorio</span>
+        </a>
       </div>
 
       <div className={style.container_details}>
-        <div className={style.proyect_details}>
+        <div className={style.proyect_image}>
           {proyecto.map((e) => {
             return (
               <div key={e.id} className="w-full p-4">
@@ -66,7 +74,7 @@ const Detalles = ({ params }) => {
             })}
           </div>
 
-          <div>
+          <div className={style.container_description}>
             <h2 className="uppercase mb-4 font-bold">Descripción</h2>
             {proyecto.map((item) => {
               return <p className="text-complementario">{item.description}</p>;

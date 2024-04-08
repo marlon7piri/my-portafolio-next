@@ -1,9 +1,9 @@
 .container_details {
   width: 100%;
   display: flex;
-  gap: 10px;
+  
 
-  padding: 2rem;
+  
 
   & .proyect_details {
     max-width: 800px;
@@ -22,6 +22,8 @@
     grid-template-columns: repeat(4, 4fr);
     gap: 10px;
     padding: 1rem;
+   
+    border-radius: 1rem;
   }
 
   & .tecnology {
@@ -38,7 +40,27 @@
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    
+    border-radius: 1rem;
+    padding: 1rem;
   }
+  & .proyect_image {
+   
+   
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+
+  & .container_description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
 
   @media (width<600px) {
     flex-direction: column;

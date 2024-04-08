@@ -25,6 +25,7 @@ export const dataProyect = [
       "2. Renderizar los productos y mostrarlos en una UI agradable y bonita",
       "3. Diseñado en Figma y desplegado en Netlify.",
     ],
+    github: "https://github.com/marlon7piri/sitio_web_bartender",
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ export const dataProyect = [
       "3. Implementar los encapsulamientos de clases mediante los métodos setter y getter",
       "4. Realizar consultas a  base de datos relacional como lo es MySql.",
     ],
+    github: "https://github.com/marlon7piri/SistemaVentaJava",
   },
   {
     id: 3,
@@ -65,6 +67,7 @@ export const dataProyect = [
       "3. Crear e implementar componentes loader para dar una mejor experiencia al usuario mientras se cargan las portadas de las películas.",
       "4. Comprender el manejo de React Router Dom para navegar entre paginas.",
     ],
+    github: "https://github.com/marlon7piri/movies",
   },
   {
     id: 4,
@@ -88,6 +91,7 @@ export const dataProyect = [
       "3. Aprendí a guardar datos en el local Storage para que las tareas persistan al usuario salga de la página o la recargue",
       "4. Comprender los eventos de los inputs en React para poder capturar todo lo que el usuario escriba en él.",
     ],
+    github: "https://github.com/marlon7piri/tasks_aplication",
   },
   {
     id: 5,
@@ -110,6 +114,7 @@ export const dataProyect = [
       "2. Comprendí el metodo array.push(), haciendo que el usuario pueda crear algún producto nuevo y lo inserte en alguna categoría de productos.",
       "3. Comprender el metodo array.reduce(), según el precio del producto agregado, aumentando  el costo de la factura si el usuario ingresa mas productos.",
     ],
+    github: "https://github.com/marlon7piri/Proyecto_Pig4",
   },
   {
     id: 6,
@@ -132,10 +137,13 @@ export const dataProyect = [
       "1. Cree un proyecto Full Stack trabajando con base de datos NoSQL como lo es MongoDB",
       "2. Comprender el framework Next.js utilizando las nuevas características de Server Side Rendering.",
       "3. Implementar autenticación del usuario utilizando nextAuth, permitiendole al usuario iniciar sesión con su email y contraseña.",
-      "4. Crear rutas privadas según el rol del usuario.",
+      "4. Crear rutas privadas según el rol del usuario. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234",
       /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
       ,
-    ],
+  ],
+  github: "    https://github.com/marlon7piri/clone-invu_app"
+  
+
   },
 ];
 
@@ -145,10 +153,9 @@ const Project = () => {
       <div className="flex mt-20">
         <TheTitle texto="Proyectos" />
       </div>
-      <p className="max-w-[60%]  text-complementario mb-20">
-        Aqui podrá ver mis proyectos trabajados
-        {/* , las dificultades que presenté y como las solucione. */} Espero que
-        les guste
+      <p className="max-w-[70%] text-[18px] text-complementario mb-20">
+        Aqui podrá ver mis proyectos trabajados y lo que aprendí en cada
+        proyecto. Espero que les guste
       </p>
 
       <div
