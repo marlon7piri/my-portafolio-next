@@ -32,11 +32,11 @@ const Detalles = ({ params }) => {
         <a
           href={proyecto.map((item) => item.github)}
           target="_blank"
-          className=" w-max h-max text-complementario p-3 rounded-md flex justify-center items-center text-xl shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 mt-4"
+          className=" w-max h-max text-complementario p-3 rounded-md flex justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 mt-4"
         >
           {" "}
           <ion-icon name="logo-github"></ion-icon>
-          <span>Repositorio</span>
+          <span className="ml-2">Repositorio</span>
         </a>
       </div>
 

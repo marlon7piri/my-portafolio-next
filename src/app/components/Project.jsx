@@ -156,7 +156,7 @@ const Project = () => {
       <div className="flex mt-20">
         <TheTitle texto="Proyectos" />
       </div>
-      <p className="max-w-[70%] text-[18px] text-complementario mb-20">
+      <p className="max-w-[70%] text-2xl text-complementario mb-20">
         Aqui podrá ver mis proyectos trabajados y lo que aprendí en cada
         proyecto. Espero que les guste
       </p>

@@ -10,7 +10,7 @@ const SobreMi = () => {
         <p className="text-complementario text-2xl">
           Hola a todos, soy programador <b className="text-primario">Full Stack junior</b>, estudio de forma
           
-          autodidacta y actualmente me encuentro cursando el bachiller de
+          autodidacta y actualmente me encuentro cursando la carrera de
           Ingeniería en Sistemas Computacionales.
           <br></br>
           <br></br>

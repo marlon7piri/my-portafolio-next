@@ -26,7 +26,7 @@ const CardProyect = ({ item }) => {
         alt={`Foto de ${item.nombre}`}
       />
 
-      <div className="flex flex-col gap-2 p-2 justify-center items-center">
+      <div className="flex flex-col gap-2 p-4 justify-center items-center">
         <span className="text-complementario font-light text-[18px]  block mt-4">
           {item.nombre}
         </span>
