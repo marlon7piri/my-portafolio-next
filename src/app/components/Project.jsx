@@ -146,10 +146,34 @@ export const dataProyect = [
     ],
     github: "    https://github.com/marlon7piri/clone-invu_app",
   },
+  {
+    id: 7,
+    nombre: "Pagina Web de Zapatillas ",
+    image:
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1714235698/fotos_portafolio2/imagen_creditshoespty_vaxkwp.jpg",
+    description:
+      "Pagina Web de catálogo de zapatillas y tacos deportivos, donde el usuario puede ver los productos por su categoría correspondiente, el usuario puede contactar directamente por WhatsApp a la empresa para solicitar mas información del producto.",
+    ruta: "https://creditshoespty.vercel.app",
+    tecnologias: [
+      "/icons/react.svg",
+      "/icons/javascript.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/css.svg",
+      "/icons/html.svg",
+    ],
+    logros: [
+      "1. Mostrar productos segun la categoría correspondiente, utilizando el método Array.filter().",
+      "2. Implementar un slider de imagenes  utilizando la librería Framer Motion.",
+      "3. Implementar animaciones de transiciones de textos e imagenes mediante la librería AOS-animated.",
+
+      ,
+    ],
+    github: "    https://github.com/marlon7piri/creditshoespty",
+  },
 ];
 
 const Project = () => {
-  const scrollRef = useRef(null);
+
 
   return (
     <div className="section">
@@ -157,8 +181,7 @@ const Project = () => {
         <TheTitle texto="Proyectos" />
       </div>
       <p className="max-w-[70%] text-2xl text-complementario mb-20">
-        Aqui podrá ver mis proyectos trabajados y lo que aprendí en cada
-        proyecto. Espero que les guste
+        Aqui podrá ver mis proyectos trabajados y el aprendizaje en el proceso. Espero que les guste.
       </p>
 
       <div

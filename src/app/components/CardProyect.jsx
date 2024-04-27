@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const CardProyect = ({ item }) => {
+
   const scrollRef = useRef(null);
   return (
     <motion.div
