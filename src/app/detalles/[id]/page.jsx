@@ -26,13 +26,13 @@ const Detalles = ({ params }) => {
       <div className="text-center">
         <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} />
       </div>
-      <div className=" flex gap-4 justify-center items-center p-4 ">
+      <div className={style.container_buttons}>
         <PrimaryButton />
         <PrimaryButton islink={proyecto.map((item) => item.ruta)} />
         <a
           href={proyecto.map((item) => item.github)}
           target="_blank"
-          className=" w-max h-max text-complementario p-3 rounded-md flex justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 mt-4"
+          className=" w-max h-max text-complementario p-3 rounded-md flex justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 ml-4"
         >
           {" "}
           <ion-icon name="logo-github"></ion-icon>
