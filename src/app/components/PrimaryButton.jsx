@@ -1,15 +1,12 @@
 "use client";
+import Link from "next/link";
 import React from "react";
-import { useRouter } from "next/navigation";
 
 
 
 export const PrimaryButton = ({ islink }) => {
-  const router = useRouter();
 
-  const navegarAtras = () => {
-    router.back();
-  };
+ 
 
   if (islink) {
     return (
@@ -23,12 +20,14 @@ export const PrimaryButton = ({ islink }) => {
     );
   } else {
     return (
+      <Link href={'/#proyects'}>
       <button
         className=" w-ma x h-max text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario "
-        onClick={navegarAtras}
+       
       >
         Atras
       </button>
+      </Link>
     );
   }
 };
