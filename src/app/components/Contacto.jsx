@@ -49,7 +49,7 @@ export const Contacto = () => {
   return (
     <div className="section">
       <TheTitle texto={'Contáctame'}/>
-      <p className="max-w-[350px] text-complementario">Si tienes algun proyecto e mente o deseas que trabajemos juntos, no dudes en escribirme.</p>s
+      <p className="max-w-[350px] text-complementario">Si tiesnes algun proyecto en mente o deseas que trabajemos juntos, no dudes en escribirme.</p>s
       <div class="form-container">
       
         <Formik
