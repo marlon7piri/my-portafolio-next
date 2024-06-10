@@ -8,7 +8,7 @@ const SobreMi = () => {
 
       <div className="w-[80%]   relative min-h-[200px] border-l-2 border-complementario p-2 -z-50">
         <p className="text-complementario text-2xl">
-          Hola a todos, soy programador <b className="text-primario">Full Stack junior</b>, estudio de forma
+          Hola a todos, soy programador <b className="text-primario">FullStack</b>, estudio de forma
           
           autodidacta y actualmente me encuentro cursando la carrera de
           Ingeniería en Sistemas Computacionales.
@@ -16,8 +16,7 @@ const SobreMi = () => {
           <br></br>
           Tengo conocimientos en lenguajes de programación tanto del backend como el frontend, actualmente estoy
           aprendiendo React Native, donde estoy implementando mis conocimientos
-          en proyectos colaborativos junto con amigos que están en el mismo
-          rubro, me gusta aprender cosas nuevas por lo que escucho consejos
+          en proyectos colaborativos, me gusta aprender cosas nuevas por lo que escucho consejos
           constructivos. Muchas gracias, en mi perfil pueden ver proyectos
           individuales en los que he trabajado.
         </p>

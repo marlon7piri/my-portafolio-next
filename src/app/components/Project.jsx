@@ -181,7 +181,7 @@ const Project = () => {
         <TheTitle texto="Proyectos" />
       </div>
       <p className="max-w-[70%] text-2xl text-complementario mb-20">
-        Aqui podrá ver mis proyectos trabajados y el aprendizaje en el proceso. Espero que les guste.
+        Aquí podrá ver mis proyectos trabajados y el aprendizaje en el proceso. Espero que les guste.
       </p>
 
       <div
@@ -191,7 +191,7 @@ const Project = () => {
       >
         {dataProyect.map((tecno) => {
           return <CardProyect item={tecno} key={tecno.id} />;
-        })}
+        }).reverse()}
       </div>
     </div>
   );

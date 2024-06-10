@@ -1,0 +1,29 @@
+.contenedor_footer {
+  width: 100%;
+  background-color: rgba(2, 2, 2, 0.587);
+  box-shadow: inset 0px 10px 25px -3px #1289a7;
+  padding: 10px;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  
+  justify-content: center;
+  align-items: center;
+  gap:5px 
+}
+
+.text {
+  padding: 10px;
+  color: #f5f6fa;
+}
+
+
+@media(width<600px){
+  .contenedor_footer {
+  
+    
+    flex-direction: column;
+    
+  }
+}

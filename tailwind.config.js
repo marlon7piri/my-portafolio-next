@@ -16,7 +16,10 @@ module.exports = {
     colors:{
       "primario":"#1289A7",
       "secundario":'#353b48',
-      "complementario":'#f5f6fa'
+      "complementario":'#f5f6fa',
+      "red":"red",
+      "orange":"orange",
+      "green":"lime"
     }
   },
   plugins: [],

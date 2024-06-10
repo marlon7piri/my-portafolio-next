@@ -4,6 +4,9 @@ import Header from './components/Header'
 import Skills from './components/Skills'
 import Project from './components/Project'
 import SobreMi from './components/SobreMi'
+import { Footter } from './components/Footter'
+import { Contacto } from './components/Contacto'
+import TheTitle from './components/TheTitle'
 
 
 const Home = () => {
@@ -13,6 +16,9 @@ const Home = () => {
       <SobreMi/>
       <Skills/>
       <Project/>
+      
+      <Contacto/>
+      <Footter/>
     </div>
   )
 }
