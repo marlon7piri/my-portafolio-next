@@ -8,29 +8,6 @@ import { motion } from "framer-motion";
 
 export const dataProyect = [
   {
-    id: 1,
-    nombre: "Sitio Web DrinkFizz",
-    image:
-      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1684510403/we_gavxxb.png",
-    description:
-      "Sitio Web llamado drinksfizz, servicio que brinda bartender y paquetes para eventos y fiestas privadas en Panama, tambien pueden registrarse bartenders que quieran estar en la Base de Datos de la página.",
-    ruta: "https://drinksfizz.com",
-    tecnologias: [
-      "/icons/javascript.svg",
-      "/icons/react.svg",
-      "/icons/html.svg",
-      "/icons/css.svg",
-      "/icons/vite.svg",
-      "/icons/tailwindcss.svg",
-    ],
-    logros: [
-      "1. Poder organizar cada producto en su categoria correspondiente mediante un renderizado condicional utilizando la url.",
-      "2. Renderizar los productos y mostrarlos en una UI agradable y bonita",
-      "3. Diseñado en Figma y desplegado en Netlify.",
-    ],
-    github: "https://github.com/marlon7piri/sitio_web_bartender",
-  },
-  {
     id: 2,
     nombre: "Sistema de Inventario ",
     image:
@@ -120,7 +97,55 @@ export const dataProyect = [
     github: "https://github.com/marlon7piri/Proyecto_Pig4",
   },
   {
+    id: 1,
+    nombre: "Sitio Web DrinkFizz",
+    image:
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1684510403/we_gavxxb.png",
+    description:
+      "Sitio Web llamado drinksfizz, servicio que brinda bartender y paquetes para eventos y fiestas privadas en Panama, tambien pueden registrarse bartenders que quieran estar en la Base de Datos de la página.",
+    ruta: "https://drinksfizz.com",
+    tecnologias: [
+      "/icons/javascript.svg",
+      "/icons/react.svg",
+      "/icons/html.svg",
+      "/icons/css.svg",
+      "/icons/vite.svg",
+      "/icons/tailwindcss.svg",
+    ],
+    logros: [
+      "1. Poder organizar cada producto en su categoria correspondiente mediante un renderizado condicional utilizando la url.",
+      "2. Renderizar los productos y mostrarlos en una UI agradable y bonita",
+      "3. Diseñado en Figma y desplegado en Netlify.",
+    ],
+    github: "https://github.com/marlon7piri/sitio_web_bartender",
+  },
+  {
     id: 6,
+    nombre: "Pagina Web de Zapatillas ",
+    image:
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1714235698/fotos_portafolio2/imagen_creditshoespty_vaxkwp.jpg",
+    description:
+      "Pagina Web de catálogo de zapatillas y tacos deportivos, donde el usuario puede ver los productos por su categoría correspondiente, el usuario puede contactar directamente por WhatsApp a la empresa para solicitar mas información del producto.",
+    ruta: "https://creditshoespty.vercel.app",
+    tecnologias: [
+      "/icons/react.svg",
+      "/icons/javascript.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/css.svg",
+      "/icons/html.svg",
+    ],
+    logros: [
+      "1. Mostrar productos segun la categoría correspondiente, utilizando el método Array.filter().",
+      "2. Implementar un slider de imagenes  utilizando la librería Framer Motion.",
+      "3. Implementar animaciones de transiciones de textos e imagenes mediante la librería AOS-animated.",
+
+      ,
+    ],
+    github: "    https://github.com/marlon7piri/creditshoespty",
+  },
+
+  {
+    id: 7,
     nombre: "Aplicacion de Registro y Control de Inventario",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
@@ -146,42 +171,43 @@ export const dataProyect = [
     ],
     github: "    https://github.com/marlon7piri/clone-invu_app",
   },
+
   {
-    id: 7,
-    nombre: "Pagina Web de Zapatillas ",
+    id: 8,
+    nombre: "E-Commerce de carteras con Stripe",
     image:
-      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1714235698/fotos_portafolio2/imagen_creditshoespty_vaxkwp.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718756743/fotos_portafolio2/e-commerce-stripe_gzgo9i.jpg",
     description:
-      "Pagina Web de catálogo de zapatillas y tacos deportivos, donde el usuario puede ver los productos por su categoría correspondiente, el usuario puede contactar directamente por WhatsApp a la empresa para solicitar mas información del producto.",
-    ruta: "https://creditshoespty.vercel.app",
+      "E-Commerce de carteras utilizando Stripe como pasarela de pago. El usuario puede agregar productos a su carrito, manipular la cantidad de productos y realizar compras utilizando Stripe, que es una pasarela de pago muy segura.",
+    ruta: "https://ecommerce-mern-pied.vercel.app",
     tecnologias: [
       "/icons/react.svg",
+      "/icons/express.svg",
+      "/icons/mongo.svg",
       "/icons/javascript.svg",
       "/icons/tailwindcss.svg",
       "/icons/css.svg",
       "/icons/html.svg",
     ],
     logros: [
-      "1. Mostrar productos segun la categoría correspondiente, utilizando el método Array.filter().",
-      "2. Implementar un slider de imagenes  utilizando la librería Framer Motion.",
-      "3. Implementar animaciones de transiciones de textos e imagenes mediante la librería AOS-animated.",
-
-      ,
+      "1. Creé un proyecto Full Stack trabajando con base de datos NoSQL como lo es MongoDB",
+      "2. Implementar y comprender la pasarela de pago Stripe.",
+      "3. Manejar estados globales utilizando useContext().",
+      "4. Implementar lógica de programación para manejar el carrito de compras a la hora de manipular aumentando o disminuyendo cantidades de cada producto.",
     ],
-    github: "    https://github.com/marlon7piri/creditshoespty",
+    github: "https://github.com/marlon7piri/ecommerce_MERN",
   },
 ];
 
 const Project = () => {
-
-
   return (
     <div className="section">
       <div className="flex mt-20">
         <TheTitle texto="Proyectos" />
       </div>
       <p className="max-w-[70%] text-2xl text-complementario mb-20">
-        Aquí podrá ver mis proyectos trabajados y el aprendizaje en el proceso. Espero que les guste.
+        Aquí podrá ver mis proyectos trabajados y el aprendizaje en el proceso.
+        Espero que les guste.
       </p>
 
       <div
@@ -189,9 +215,11 @@ const Project = () => {
       justify-center  items-center "
         id="proyects"
       >
-        {dataProyect.map((tecno) => {
-          return <CardProyect item={tecno} key={tecno.id} />;
-        }).reverse()}
+        {dataProyect
+          .map((tecno) => {
+            return <CardProyect item={tecno} key={tecno.id} />;
+          })
+          .reverse()}
       </div>
     </div>
   );

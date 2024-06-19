@@ -15,7 +15,7 @@ export async function POST(req) {
         <TemplateEmail email={email} telefono={telefono} mensaje={mensaje} />
       ),
     });
-    console.log(data, error);
+
     if (error) {
       return NextResponse.json("Error al enviar el email", { status: 500 });
     }

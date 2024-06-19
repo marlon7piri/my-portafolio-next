@@ -15,11 +15,13 @@ export const Contacto = () => {
   const [mensaje, setMensaje] = useState("");
 
   async function onSubmit(values) {
-    event.preventDefault();
+
+   
     setIsLoading(true);
     setError(null); // Clear previous errors when a new request starts
-
-    try {
+/* https://localhost:3000/api/email */
+/* https://marlonrd.vercel.app/api/email */
+   try {
       const response = await fetch("https://marlonrd.vercel.app/api/email", {
         method: "POST",
         headers: {
@@ -28,6 +30,7 @@ export const Contacto = () => {
         },
         body: JSON.stringify(values),
       });
+
 
       if (!response.ok) {
         throw new Error("Failed to submit the data. Please try again.");
@@ -40,16 +43,16 @@ export const Contacto = () => {
     } catch (error) {
       // Capture the error message to display to the user
       setError(error.message);
-      console.error(error);
       toast.success(error);
     } finally {
       setIsLoading(false);
     }
+   
   }
   return (
     <div className="section">
       <TheTitle texto={'Contáctame'}/>
-      <p className="max-w-[350px] text-complementario">Si tienes algun proyecto en mente o deseas que trabajemos juntos, no dudes en escribirme.</p>s
+      <p className="max-w-[350px] text-complementario">Si tienes algun proyecto en mente o deseas que trabajemos juntos, no dudes en escribirme.</p>
       <div class="form-container">
       
         <Formik
