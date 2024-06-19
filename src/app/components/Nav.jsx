@@ -33,7 +33,7 @@ export default function Nav() {
       <div className="w-full flex justify-between p-4">
         <div className="nav_container flex gap-2 w-full ">
           <p className="text-2xl font-bold text-primario">
-            Marlon <span className="text-complementario">.Dev</span>
+            Marlon<span className="text-complementario">.Dev</span>
           </p>
         </div>
         <div className="menu" id="menu">

@@ -35,7 +35,7 @@ const CardProyect = ({ item }) => {
           href={`/detalles/${item.id}`}
           className=" w-max h-max text-complementario p-3 rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario"
         >
-          <span> Mas Detalles</span>
+          <span> Más Detalles</span>
           <div>
             <Image width={26} height={26} src={"/icons/book.svg"} />
           </div>

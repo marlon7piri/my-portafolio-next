@@ -52,7 +52,7 @@ export const Contacto = () => {
   return (
     <div className="section">
       <TheTitle texto={'Contáctame'}/>
-      <p className="max-w-[350px] text-complementario">Si tienes algun proyecto en mente o deseas que trabajemos juntos, no dudes en escribirme.</p>
+      <p className="max-w-[350px] text-complementario">Si tienes algún proyecto en mente o deseas que trabajemos juntos, no dudes en escribirme.</p>
       <div class="form-container">
       
         <Formik
@@ -71,7 +71,7 @@ export const Contacto = () => {
               id="contacto"
             >
               <div class="form-group">
-                <label for="email">Email</label>
+              <label for="email">E-mail</label>
                 <input
                   required=""
                   name="email"
@@ -115,7 +115,7 @@ export const Contacto = () => {
               </div>
               <button className="button">
                 {" "}
-                {isLoading ? "Loading..." : "Submit"}
+                {isLoading ? "Cargando..." : "Enviar"}
               </button>
             </form>
           )}

@@ -25,7 +25,7 @@ export const PrimaryButton = ({ islink }) => {
         className=" w-ma x h-max text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario "
        
       >
-        Atras
+        Atrás
       </button>
       </Link>
     );

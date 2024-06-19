@@ -13,7 +13,7 @@ export const dataProyect = [
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1689617415/fotos_portafolio2/IMG_20230717_130729_xl37ry.jpg",
     description:
-      "Aplicacion de escritorio programado con Java, Netbeans como IDE, donde agregas productos, clientes, proveedores, imprimes datos en pdf,excel, actualmente continuo trabajando en dicho proyecto.",
+      "Aplicación de escritorio programado con Java, Netbeans como IDE, donde agregas productos, clientes, proveedores, imprimes datos en pdf,excel, actualmente continuo trabajando en dicho proyecto.",
     ruta: "https://github.com/marlon7piri/SistemaVentaJava",
     tecnologias: ["/icons/java.svg", "/icons/mysql.svg"],
 
@@ -27,12 +27,12 @@ export const dataProyect = [
   },
   {
     id: 3,
-    nombre: "Aplicacion de Películas",
+    nombre: "Aplicación de Películas",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1671562665/fotos_portafolio2/imagen_peliculas_portafolio_nfxegv.jpg",
     description:
-      "Aplicacion de Peliculas utilizando HTML , CSS, tailwindCSS , React, react-router-dom,  consumo de una Api The MOvie DB",
-    ruta: "https://aplicacionpelimrd.netlify.app/",
+      "Aplicación de Peliculas utilizando HTML , CSS, tailwindCSS , React, react-router-dom,  consumo de una Api The MOvie DB",
+    ruta: "https://Aplicaciónpelimrd.netlify.app/",
     tecnologias: [
       "/icons/react.svg",
       "/icons/javascript.svg",
@@ -45,17 +45,17 @@ export const dataProyect = [
       "1. Consumir una API(MovieDB) externa donde me devuelve las peliculas en formato JSON y poder convertir esos datos para despues renderizar las películas.",
       "2. Comprender las funcionalidades de React, como los hooks useState(), useEffect(), crear funciones de filtrados de las peliculas segun su nombre.",
       "3. Crear e implementar componentes loader para dar una mejor experiencia al usuario mientras se cargan las portadas de las películas.",
-      "4. Comprender el manejo de React Router Dom para navegar entre paginas.",
+      "4. Comprender el manejo de React Router Dom para navegar entre Páginas.",
     ],
     github: "https://github.com/marlon7piri/movies",
   },
   {
     id: 4,
-    nombre: "Aplicacion de Tareas",
+    nombre: "Aplicación de Tareas",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1671562665/fotos_portafolio2/imagen_tareas_portafolio_zubea6.jpg",
     description:
-      "Aplicacion de Tareas utilizando React, tailwindCSS, guardando las tareas en local storage, para ayudarte a guardar tus tareas pendientes",
+      "Aplicación de Tareas utilizando React, tailwindCSS, guardando las tareas en local storage, para ayudarte a guardar tus tareas pendientes",
     ruta: "https://tareasmrd.netlify.app/",
     tecnologias: [
       "/icons/react.svg",
@@ -75,11 +75,11 @@ export const dataProyect = [
   },
   {
     id: 5,
-    nombre: "Aplicacion de Sistema de Ventas",
+    nombre: "Aplicación de Sistema de Ventas",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1672687654/fotos_portafolio2/ppig4_mocdlb.png",
     description:
-      "Aplicacion de Systema de venta comercial utilizando HTML, CSS, Javascript, React, tailwindCSS, la aplicacion no es adaptable a dispositivos mobiles ya que simula a una aplicacion de escritorio.",
+      "Aplicación de Systema de venta comercial utilizando HTML, CSS, Javascript, React, tailwindCSS, la aplicación no es adaptable a dispositivos mobiles ya que simula a una aplicación de escritorio.",
     ruta: "https://pig4.netlify.app/",
     tecnologias: [
       "/icons/react.svg",
@@ -98,11 +98,11 @@ export const dataProyect = [
   },
   {
     id: 1,
-    nombre: "Sitio Web DrinkFizz",
+    nombre: "Página web DrinkFizz",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1684510403/we_gavxxb.png",
     description:
-      "Sitio Web llamado drinksfizz, servicio que brinda bartender y paquetes para eventos y fiestas privadas en Panama, tambien pueden registrarse bartenders que quieran estar en la Base de Datos de la página.",
+      "Página Web llamado drinksfizz, servicio que brinda bartender y paquetes para eventos y fiestas privadas en Panama, tambien pueden registrarse bartenders que quieran estar en la Base de Datos de la página.",
     ruta: "https://drinksfizz.com",
     tecnologias: [
       "/icons/javascript.svg",
@@ -121,11 +121,11 @@ export const dataProyect = [
   },
   {
     id: 6,
-    nombre: "Pagina Web de Zapatillas ",
+    nombre: "Página Web de Zapatillas ",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1714235698/fotos_portafolio2/imagen_creditshoespty_vaxkwp.jpg",
     description:
-      "Pagina Web de catálogo de zapatillas y tacos deportivos, donde el usuario puede ver los productos por su categoría correspondiente, el usuario puede contactar directamente por WhatsApp a la empresa para solicitar mas información del producto.",
+      "Página Web de catálogo de zapatillas y tacos deportivos, donde el usuario puede ver los productos por su categoría correspondiente, el usuario puede contactar directamente por WhatsApp a la empresa para solicitar mas información del producto.",
     ruta: "https://creditshoespty.vercel.app",
     tecnologias: [
       "/icons/react.svg",
@@ -135,18 +135,24 @@ export const dataProyect = [
       "/icons/html.svg",
     ],
     logros: [
-      "1. Mostrar productos segun la categoría correspondiente, utilizando el método Array.filter().",
-      "2. Implementar un slider de imagenes  utilizando la librería Framer Motion.",
+      "1. Mostrar productos según la categoría correspondiente, utilizando el método Array.filter().",
+      "2. Implementar un slider de imágenes  utilizando la librería Framer Motion.",
       "3. Implementar animaciones de transiciones de textos e imagenes mediante la librería AOS-animated.",
 
       ,
     ],
     github: "    https://github.com/marlon7piri/creditshoespty",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766299/fotos_portafolio2/creditshoes-1_mewlvl.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766299/fotos_portafolio2/creditshoes-2_ci3nsi.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766305/fotos_portafolio2/creditshoes-3_xst6hb.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766316/fotos_portafolio2/creditshoes-4_ajexyo.jpg"
+    ],
   },
 
   {
     id: 7,
-    nombre: "Aplicacion de Registro y Control de Inventario",
+    nombre: "Aplicación de Registro y Control de Inventario",
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
     description:
@@ -162,7 +168,7 @@ export const dataProyect = [
       "/icons/html.svg",
     ],
     logros: [
-      "1. Cree un proyecto Full Stack trabajando con base de datos NoSQL como lo es MongoDB",
+      "1. Creé un proyecto Full Stack trabajando con base de datos NoSQL como lo es MongoDB",
       "2. Comprender el framework Next.js utilizando las nuevas características de Server Side Rendering.",
       "3. Implementar autenticación del usuario utilizando nextAuth, permitiendole al usuario iniciar sesión con su email y contraseña.",
       "4. Crear rutas privadas según el rol del usuario.",
@@ -170,6 +176,12 @@ export const dataProyect = [
       ,
     ],
     github: "    https://github.com/marlon7piri/clone-invu_app",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-mermas_ludvie.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture_lbi0bo.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-productos_kpswqp.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762276/fotos_portafolio2/clone-invu-login_siwtt0.png",
+    ],
   },
 
   {
@@ -196,6 +208,12 @@ export const dataProyect = [
       "4. Implementar lógica de programación para manejar el carrito de compras a la hora de manipular aumentando o disminuyendo cantidades de cada producto.",
     ],
     github: "https://github.com/marlon7piri/ecommerce_MERN",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-carrito_rnsdyr.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg","https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg"
+    ],
   },
 ];
 

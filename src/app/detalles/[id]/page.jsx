@@ -9,6 +9,7 @@ import { PrimaryButton } from "@/app/components/PrimaryButton";
 const Detalles = ({ params }) => {
   const [proyecto, setProyecto] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [rutaImageSelected, setRutaImageSelected] = useState("");
   const idProyecto = params.id;
 
   useEffect(() => {
@@ -20,6 +21,11 @@ const Detalles = ({ params }) => {
     setProyecto(proyectfilter);
     setLoading(false);
   }, []);
+
+  const handlerImage = (ruta) => {
+   
+    setRutaImageSelected(ruta);
+  };
 
   return (
     <div className="w-full text-complementario">
@@ -48,10 +54,25 @@ const Detalles = ({ params }) => {
                 <Image
                   width={600}
                   height={800}
-                  src={e.image}
+                  src={!rutaImageSelected ? e.image : rutaImageSelected}
                   alt={e.nombre}
                   className={style.image_proyect}
                 />
+                <div className="flex gap-2 flex-wrap mt-4">
+                  {e.imagenes?.map((item) => {
+                    return (
+                      <img
+                        key={item}
+                        src={item}
+                        alt="imagen del proyecto"
+                        className="cursor-pointer object-cover hover:shadow-complementario hover:shadow-md"
+                        width={220}
+                        height={220}
+                        onClick={() => handlerImage(item)}
+                      />
+                    );
+                  })}
+                </div>
               </div>
             );
           })}

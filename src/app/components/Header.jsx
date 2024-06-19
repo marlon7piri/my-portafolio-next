@@ -17,7 +17,7 @@ const Header = () => {
           className=" w-max mt-24 flex flex-col gap-4" /* {style.container_title_header} */
         >
           <h1 className={style.title}>
-            Hola!, soy{" "}
+            Hola, soy{" "}
             <b className="text-primario font-black text-6xl">Marlon</b>
           </h1>
           <p className="text-complementario text-2xl z-50">Programador Full Stack</p>

@@ -8,7 +8,7 @@ const SobreMi = () => {
 
       <div className="w-[80%]   relative min-h-[200px] border-l-2 border-complementario p-2 -z-50">
         <p className="text-complementario text-2xl">
-          Hola a todos, soy programador <b className="text-primario">FullStack</b>, estudio de forma
+          Hola a tod@s, soy programador <b className="text-primario">FullStack</b>, estudio de forma
           
           autodidacta y actualmente me encuentro cursando la carrera de
           Ingeniería en Sistemas Computacionales.
