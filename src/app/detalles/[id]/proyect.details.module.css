@@ -119,6 +119,18 @@
      
     }
   }
+  @media (width<1370px) {
+    .container_image_secundary {
+      display: flex;
+    
+      overflow: scroll;
+    
+    }
+    .imagen_secundary {
+     
+      cursor: grab;
+    }
+  }
 }
 
 .container_buttons {
