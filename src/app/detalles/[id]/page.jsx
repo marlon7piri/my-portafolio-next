@@ -23,14 +23,13 @@ const Detalles = ({ params }) => {
   }, []);
 
   const handlerImage = (ruta) => {
-   
     setRutaImageSelected(ruta);
   };
 
   return (
     <div className="w-full text-complementario">
       <div className="text-center">
-        <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} />
+        <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} medium />
       </div>
       <div className={style.container_buttons}>
         <PrimaryButton />
@@ -51,23 +50,24 @@ const Detalles = ({ params }) => {
           {proyecto.map((e) => {
             return (
               <div key={e.id} className="w-full p-4">
-                <Image
-                  width={600}
-                  height={800}
+                <img
+                  key={e}
                   src={!rutaImageSelected ? e.image : rutaImageSelected}
-                  alt={e.nombre}
+                  alt="imagen del proyecto"
                   className={style.image_proyect}
                 />
-                <div className="flex gap-2 flex-wrap mt-4">
+
+                {e.imagenes?.lenght > 0 ? (
+                  <p className="mt-10">Desliza para ver mas fotos.</p>
+                ) : null}
+                <div className={style.container_image_secundary}>
                   {e.imagenes?.map((item) => {
                     return (
                       <img
                         key={item}
                         src={item}
                         alt="imagen del proyecto"
-                        className="cursor-pointer object-cover hover:shadow-complementario hover:shadow-md"
-                        width={220}
-                        height={220}
+                        className={style.imagen_secundary}
                         onClick={() => handlerImage(item)}
                       />
                     );
