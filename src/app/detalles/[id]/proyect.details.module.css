@@ -118,8 +118,7 @@
       align-items: center;
     }
   }
-  @media (width<1370px) {
-    
+  @media (600px >= width <= 1370px) {
     .container_image_secundary {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
