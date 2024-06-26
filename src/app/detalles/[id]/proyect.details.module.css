@@ -120,16 +120,20 @@
     }
   }
   @media (width<1370px) {
+
+    .image_proyect {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+    }
     .container_image_secundary {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
     
-      overflow: scroll;
+      
     
     }
-    .imagen_secundary {
-     
-      cursor: grab;
-    }
+   
   }
 }
 
