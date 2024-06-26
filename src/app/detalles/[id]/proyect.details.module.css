@@ -128,7 +128,7 @@
       height: 200px;
       margin-top: 1rem;
       cursor: pointer;
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 }
