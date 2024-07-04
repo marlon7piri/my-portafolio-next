@@ -57,7 +57,7 @@ const Detalles = ({ params }) => {
                   className={style.image_proyect}
                 />
 
-                {e?.imagenes.lenght > 0 ? (
+                {e?.imagenes?.lenght > 0 ? (
                   <p className="mt-10 text-complementario">Desliza para ver mas fotos.</p>
                 ) : null}
                 <div className={style.container_image_secundary}>

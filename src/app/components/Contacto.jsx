@@ -38,10 +38,10 @@ export const Contacto = () => {
 
       // Handle response if necessary
       const data = await response.json();
+      
       toast.success("Mensaje enviado");
       // ...
     } catch (error) {
-      // Capture the error message to display to the user
       setError(error.message);
       toast.success(error);
     } finally {
