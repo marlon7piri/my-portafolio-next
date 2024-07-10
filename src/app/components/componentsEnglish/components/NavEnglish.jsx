@@ -69,7 +69,7 @@ export default function NavEnglish() {
             Skills
           </a>
           <a href="#proyects_english" onClick={handelToggle}>
-            Proyects
+            Projects
           </a>
           <a href="#contacto_english" onClick={handelToggle}>
             Contact

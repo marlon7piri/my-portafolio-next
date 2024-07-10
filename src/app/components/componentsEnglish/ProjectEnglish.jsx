@@ -222,7 +222,7 @@ const ProjectEnglish = () => {
   return (
     <div className="section">
       <div className="flex mt-20">
-        <TheTitle texto="Proyects" />
+        <TheTitle texto="Projects" />
       </div>
       <p className="max-w-[70%] text-2xl text-complementario mb-20">
         Here you will be able to see my projects and the learning process
