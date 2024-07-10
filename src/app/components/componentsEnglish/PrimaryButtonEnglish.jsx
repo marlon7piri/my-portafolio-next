@@ -1,13 +1,8 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { usePathname } from "next/navigation";
 
-export const PrimaryButton = ({ islink }) => {
-  const path = usePathname();
-
-  console.log(path);
-
+export const PrimaryButtonEnglish = ({ islink }) => {
   if (islink) {
     return (
       <a
@@ -15,14 +10,14 @@ export const PrimaryButton = ({ islink }) => {
         href={islink}
         target="_blank"
       >
-        Ver Proyecto
+        View Project
       </a>
     );
   } else {
     return (
-      <Link href={path.includes === "/en" ? "/en/#proyects" : "/#proyects"}>
+      <Link href={"/en#proyects_english"}>
         <button className=" w-ma x h-max text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario ">
-          Atrás
+          Back
         </button>
       </Link>
     );

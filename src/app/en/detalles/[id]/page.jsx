@@ -1,10 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import style from "./proyect.details.module.css";
-import { dataProyect } from "@/app/components/Project";
 import Image from "next/image";
 import TheTitle from "@/app/components/TheTitle";
 import { PrimaryButton } from "@/app/components/PrimaryButton";
+import { dataProyect } from "../../../components/componentsEnglish/ProjectEnglish";
+import { PrimaryButtonEnglish } from "../../../components/componentsEnglish/PrimaryButtonEnglish";
 
 const Detalles = ({ params }) => {
   const [proyecto, setProyecto] = useState([]);
@@ -32,8 +33,8 @@ const Detalles = ({ params }) => {
         <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} medium />
       </div>
       <div className={style.container_buttons}>
-        <PrimaryButton />
-        <PrimaryButton islink={proyecto.map((item) => item.ruta)} />
+        <PrimaryButtonEnglish />
+        <PrimaryButtonEnglish islink={proyecto.map((item) => item.ruta)} />
         <a
           href={proyecto.map((item) => item.github)}
           target="_blank"
@@ -41,7 +42,7 @@ const Detalles = ({ params }) => {
         >
           {" "}
           <ion-icon name="logo-github"></ion-icon>
-          <span className="ml-2">Repositorio</span>
+          <span className="ml-2">Repository</span>
         </a>
       </div>
 
@@ -59,7 +60,7 @@ const Detalles = ({ params }) => {
 
                 {e?.imagenes?.lenght > 0 ? (
                   <p className="mt-10 text-complementario">
-                    Swipe to see more photos.
+                    Desliza para ver mas fotos.
                   </p>
                 ) : null}
                 <div className={style.container_image_secundary}>
@@ -81,7 +82,7 @@ const Detalles = ({ params }) => {
         </div>
 
         <div>
-          <h2 className="uppercase font-bold">Tecnologías</h2>
+          <h2 className="uppercase font-bold">technologies</h2>
           <div className={style.tecnology_container}>
             {proyecto.map((item) => {
               return item.tecnologias.map((tecno) => {
@@ -98,14 +99,14 @@ const Detalles = ({ params }) => {
           </div>
 
           <div className={style.container_description}>
-            <h2 className="uppercase mb-4 font-bold">Descripción</h2>
+            <h2 className="uppercase mb-4 font-bold">Description</h2>
             {proyecto.map((item) => {
               return <p className="text-complementario">{item.description}</p>;
             })}
           </div>
 
           <div className={style.logros_container}>
-            <h2 className="uppercase mb-4 font-bold">Logros</h2>
+            <h2 className="uppercase mb-4 font-bold">Achievements</h2>
             {proyecto.map((item) => {
               return item.logros.map((logro) => {
                 return (

@@ -5,13 +5,14 @@ import Link from "next/link";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
-import style from "./navbar.module.css";
+import style from "../../navbar.module.css";
 import { usePathname } from "next/navigation";
 
-export default function Nav() {
+export default function NavEnglish() {
   const [show, setShow] = useState(true);
   const [isGoDown, setIsGoDown] = useState(0);
   const path = usePathname();
+
   const handelToggle = () => {
     document.getElementById("menu").classList.toggle("show_menu");
     setShow(!show);
@@ -40,13 +41,14 @@ export default function Nav() {
         </div>
         <div className="menu" id="menu">
           <Link href={"/en"}>
-            {" "}
             <img
               src="/icons/english.png"
               alt=""
               width={42}
               height={32}
-              style={{ minWidth: 42, minHeight: 32 }}
+              style={
+                path === "/en" && { opacity: 0.5, minWidth: 42, minHeight: 32 }
+              }
             />
           </Link>
           <Link href={"/"}>
@@ -56,23 +58,21 @@ export default function Nav() {
               alt=""
               width={42}
               height={32}
-              style={
-                path === "/" && { opacity: 0.5, minWidth: 42, minHeight: 32 }
-              }
+              style={{ minWidth: 42, minHeight: 32 }}
             />
           </Link>
-          <a href="#sobre_mi" onClick={handelToggle}>
-            Sobre Mi
+          <a href="#sobre_mi_english" onClick={handelToggle}>
+            About Me
           </a>
 
-          <a href="#skills" onClick={handelToggle}>
-            Habilidades
+          <a href="#skills_english" onClick={handelToggle}>
+            Skills
           </a>
-          <a href="#proyects" onClick={handelToggle}>
-            Proyectos
+          <a href="#proyects_english" onClick={handelToggle}>
+            Proyects
           </a>
-          <a href="#contacto" onClick={handelToggle}>
-            Contácto
+          <a href="#contacto_english" onClick={handelToggle}>
+            Contact
           </a>
         </div>
 
