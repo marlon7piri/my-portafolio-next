@@ -32,7 +32,7 @@ export const dataProyect = [
     description:
       "Movie application using HTML, CSS, TailwindCSS, React, react-router-dom, and consuming The Movie DB API.",
 
-    ruta: "https://Aplicaciónpelimrd.netlify.app/",
+    ruta: "https://aplicacionpelimrd.netlify.app/",
     tecnologias: [
       "/icons/react.svg",
       "/icons/javascript.svg",
@@ -53,10 +53,10 @@ export const dataProyect = [
     id: 4,
     nombre: "Tasks Aplication",
     image:
-      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1671562665/fotos_portafolio2/imagen_tareas_portafolio_zubea6.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573040/fotos_portafolio2/principal_oamod5.png",
     description:
       "Task application using React and TailwindCSS, saving tasks in local storage to help you keep track of your pending tasks.",
-    ruta: "https://tareasmrd.netlify.app/",
+    ruta: "https://task-aplication-client.vercel.app/",
     tecnologias: [
       "/icons/react.svg",
       "/icons/javascript.svg",
@@ -72,6 +72,11 @@ export const dataProyect = [
       "4. Understand input events in React to capture everything the user types.",
     ],
     github: "https://github.com/marlon7piri/tasks_aplication",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720572765/fotos_portafolio2/login_i90jao.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720572765/fotos_portafolio2/home_nwojll.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720572765/fotos_portafolio2/register_spe0pf.png",
+    ],
   },
   {
     id: 5,
@@ -95,6 +100,11 @@ export const dataProyect = [
       "3. Understood the array.reduce() method to calculate the total cost of the invoice, increasing the cost as the user adds more products.",
     ],
     github: "https://github.com/marlon7piri/Proyecto_Pig4",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720574154/fotos_portafolio2/foto2_q9dblp.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720574153/fotos_portafolio2/foto1_dxcjpa.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720574153/fotos_portafolio2/foto3_svbq5e.png",
+    ],
   },
   {
     id: 1,
@@ -118,6 +128,12 @@ export const dataProyect = [
       "3. Designed in Figma and deployed on Netlify.",
     ],
     github: "https://github.com/marlon7piri/sitio_web_bartender",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573378/fotos_portafolio2/3_diw502.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573378/fotos_portafolio2/2_rbghfn.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573377/fotos_portafolio2/4_l8ad5u.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573377/fotos_portafolio2/5_zl83va.png",
+    ],
   },
   {
     id: 6,

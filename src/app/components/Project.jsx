@@ -32,7 +32,7 @@ export const dataProyect = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1671562665/fotos_portafolio2/imagen_peliculas_portafolio_nfxegv.jpg",
     description:
       "Aplicación de Peliculas utilizando HTML , CSS, tailwindCSS , React, react-router-dom,  consumo de una Api The MOvie DB",
-    ruta: "https://Aplicaciónpelimrd.netlify.app/",
+    ruta: "https://aplicacionpelimrd.netlify.app/",
     tecnologias: [
       "/icons/react.svg",
       "/icons/javascript.svg",
@@ -53,10 +53,10 @@ export const dataProyect = [
     id: 4,
     nombre: "Aplicación de Tareas",
     image:
-      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1671562665/fotos_portafolio2/imagen_tareas_portafolio_zubea6.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573040/fotos_portafolio2/principal_oamod5.png",
     description:
       "Aplicación de Tareas utilizando React, tailwindCSS, guardando las tareas en local storage, para ayudarte a guardar tus tareas pendientes",
-    ruta: "https://tareasmrd.netlify.app/",
+    ruta: "https://task-aplication-client.vercel.app/",
     tecnologias: [
       "/icons/react.svg",
       "/icons/javascript.svg",
@@ -72,6 +72,11 @@ export const dataProyect = [
       "4. Comprender los eventos de los inputs en React para poder capturar todo lo que el usuario escriba en él.",
     ],
     github: "https://github.com/marlon7piri/tasks_aplication",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720572765/fotos_portafolio2/login_i90jao.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720572765/fotos_portafolio2/home_nwojll.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720572765/fotos_portafolio2/register_spe0pf.png",
+    ],
   },
   {
     id: 5,
@@ -95,6 +100,11 @@ export const dataProyect = [
       "3. Comprender el metodo array.reduce(), según el precio del producto agregado, aumentando  el costo de la factura si el usuario ingresa mas productos.",
     ],
     github: "https://github.com/marlon7piri/Proyecto_Pig4",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720574154/fotos_portafolio2/foto2_q9dblp.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720574153/fotos_portafolio2/foto1_dxcjpa.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720574153/fotos_portafolio2/foto3_svbq5e.png",
+    ],
   },
   {
     id: 1,
@@ -118,6 +128,12 @@ export const dataProyect = [
       "3. Diseñado en Figma y desplegado en Netlify.",
     ],
     github: "https://github.com/marlon7piri/sitio_web_bartender",
+    imagenes: [
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573378/fotos_portafolio2/3_diw502.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573378/fotos_portafolio2/2_rbghfn.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573377/fotos_portafolio2/4_l8ad5u.png",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1720573377/fotos_portafolio2/5_zl83va.png",
+    ],
   },
   {
     id: 6,
@@ -146,7 +162,7 @@ export const dataProyect = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766299/fotos_portafolio2/creditshoes-1_mewlvl.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766299/fotos_portafolio2/creditshoes-2_ci3nsi.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766305/fotos_portafolio2/creditshoes-3_xst6hb.jpg",
-      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766316/fotos_portafolio2/creditshoes-4_ajexyo.jpg"
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718766316/fotos_portafolio2/creditshoes-4_ajexyo.jpg",
     ],
   },
 
@@ -212,7 +228,8 @@ export const dataProyect = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-carrito_rnsdyr.jpg",
-      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg","https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg"
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg",
+      "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
     ],
   },
 ];

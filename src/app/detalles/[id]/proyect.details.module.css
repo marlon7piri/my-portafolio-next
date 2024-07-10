@@ -118,10 +118,10 @@
       align-items: center;
     }
   }
-  @media (600px >= width <= 1370px) {
+  @media (1200px >= width <= 1370px) {
     .container_image_secundary {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
     .imagen_secundary {
       width: 100%;
