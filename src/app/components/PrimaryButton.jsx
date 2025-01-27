@@ -6,12 +6,10 @@ import { usePathname } from "next/navigation";
 export const PrimaryButton = ({ islink }) => {
   const path = usePathname();
 
-  console.log(path);
-
   if (islink) {
     return (
       <a
-        className=" w-max h-max text-complementario p-3 rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario "
+        className=" w-[200px] h-max text-complementario p-3 rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario "
         href={islink}
         target="_blank"
       >
@@ -21,7 +19,7 @@ export const PrimaryButton = ({ islink }) => {
   } else {
     return (
       <Link href={path.includes === "/en" ? "/en/#proyects" : "/#proyects"}>
-        <button className=" w-ma x h-max text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario ">
+        <button className=" w-[200px] h-max text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario ">
           Atrás
         </button>
       </Link>
