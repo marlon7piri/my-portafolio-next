@@ -15,7 +15,7 @@ export const dataProyect = [
             ", descargar archivos en EXCEL y PDF."
         ,
         ruta: "https://github.com/marlon7piri/SistemaVentaJava",
-        video: "",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738611736/dmmekzh87l7krczdqzj8.mp4",
         tecnologias: ["/icons/java.svg", "/icons/mysql.svg", "/icons/netbeans.svg"],
 
         logros: [
@@ -337,7 +337,7 @@ export const dataProyectEnglish = [
             "The system has one-to-many relationships between tables: a product has a supplier, and a supplier has many products. Here, you can see ONE-TO-MANY and MANY-TO-ONE relationships."
             + "A sales system where you can: Create products, create suppliers, manage sales, search by product or customer code, download files in EXCEL and PDF."
         ,
-        video: "",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738611736/dmmekzh87l7krczdqzj8.mp4",
         tecnologias: ["/icons/java.svg", "/icons/mysql.svg", "/icons/netbeans.svg"],
 
         logros: [

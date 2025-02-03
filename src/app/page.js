@@ -12,14 +12,14 @@ import TheTitle from './components/TheTitle'
 const Home = () => {
   return (
     <div >
-      
-      <Header/>
-      <SobreMi/>
-      <Skills/>
-      <Project/>
-      
-      <Contacto/>
-      <Footter/>
+
+      <Header />
+      <SobreMi />
+      <Skills />
+      <Project />
+
+      <Contacto />
+      <Footter />
     </div>
   )
 }
