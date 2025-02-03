@@ -25,10 +25,10 @@ const Project = () => {
         id="proyects"
       >
         {dataProyect
-          .map((tecno) => {
-            return <CardProyect item={tecno} key={tecno.id} />;
+          .map((tecno, index) => {
+            return <CardProyect item={tecno} key={tecno.id} index={index + 1} />;
           })
-          .reverse()}
+          }
       </div>
     </div>
   );

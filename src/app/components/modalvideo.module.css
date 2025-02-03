@@ -1,0 +1,69 @@
+.modal {
+    background-color: rgb(10, 2, 2);
+    z-index: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgb(250, 243, 243);
+    z-index: 500;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 300px);
+    position: relative;
+    min-height: calc(100% - 300px);
+  }
+  
+  .closeButton {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    right: 1.25rem;
+    top: 1.25rem;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loadingText {
+    color: black;
+  }
+  
+  .video {
+    width: calc(100% - 100px);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      width: calc(100% - 50px);
+      min-height: calc(100% - 500px);
+      padding: 1rem;
+    }
+  
+    .video {
+      width: 100%;
+    }
+  
+    .closeButton {
+      width: 2rem;
+      height: 2rem;
+      top: 1rem;
+      right: 1rem;
+    }
+  }
+  

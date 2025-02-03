@@ -14,8 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
       <body className={montserrat.className}>
-        {children}
+        
+      {children}
+        
 
         <script
           type="module"
@@ -26,6 +29,7 @@ export default function RootLayout({ children }) {
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         ></script>
       </body>
+
     </html>
   );
 }

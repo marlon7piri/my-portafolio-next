@@ -3,7 +3,7 @@
 import React from "react";
 
 import TheTitle from "../../components/TheTitle";
-import {dataProyectEnglish} from "../../data/proyectos";
+import { dataProyectEnglish } from "../../data/proyectos";
 import CardProyectEnglish from './CardProyectEnglish'
 
 
@@ -25,10 +25,10 @@ const ProjectEnglish = () => {
         id="proyects_english"
       >
         {dataProyectEnglish
-          .map((tecno) => {
-            return <CardProyectEnglish item={tecno} key={tecno.id} />;
+          .map((tecno, index) => {
+            return <CardProyectEnglish item={tecno} key={tecno.id} index={index + 1} />;
           })
-          .reverse()}
+          }
       </div>
     </div>
   );

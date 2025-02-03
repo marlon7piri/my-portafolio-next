@@ -5,19 +5,109 @@ export const dataProyect = [
         image:
             "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1689617415/fotos_portafolio2/IMG_20230717_130729_xl37ry.jpg",
         description:
-            "Aplicación de escritorio programado con Java, Netbeans como IDE, donde agregas productos, clientes, proveedores, imprimes datos en pdf,excel, actualmente continuo trabajando en dicho proyecto.",
+            "El sistema tiene relaciones entre tablas de uno a muchos:" +
+            " un producto tiene un proveedor y un proveedor tiene muchos productos, se puede ver aquí relaciones ONE TO MANY y MANY TO ONE." +
+            " Sistema de venta en la que puedes:" +
+            " Crear productos" +
+            ", proveedores" +
+            ", ventas" +
+            ", realizar búsquedas por código de productos o de cliente" +
+            ", descargar archivos en EXCEL y PDF."
+        ,
         ruta: "https://github.com/marlon7piri/SistemaVentaJava",
         video: "",
-        tecnologias: ["/icons/java.svg", "/icons/mysql.svg"],
+        tecnologias: ["/icons/java.svg", "/icons/mysql.svg", "/icons/netbeans.svg"],
 
         logros: [
-            "1. Aprendí a trabajar con Netbeans facilitando el diseño y la funcionalidad de la aplicación de escritorio.",
+            "1. Aprendí a trabajar con NetBeans, lo que facilita el diseño e implementación de la funcionalidad de la aplicación de escritorio.",
             "2. Aprendi a trabajar con POO donde tenemos usuarios, productos, proveedores.",
             "3. Implementar los encapsulamientos de clases mediante los métodos setter y getter",
             "4. Realizar consultas a  base de datos relacional como lo es MySql.",
+            "5. Hacer relaciones entre tablas",
+
         ],
         github: "https://github.com/marlon7piri/SistemaVentaJava",
     },
+    {
+        id: 10,
+        nombre: "Aplicacion móvil de Tareas domesticas",
+        image:
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738604792/saminisft40aqtgfzg8h.jpg",
+        description:
+            "Aplicación móvil de tareas domésticas desarrollada con React Native donde te facilita el control de los productos que tienes en tu casa, puedes:" +
+            " Crear contactos y le puedes compartir tareas domésticas, " +
+            " crear categorías de alimentos y asociar cada producto a una categoría, " +
+            " crear recetas de comida o de bebidas para que no se te olvide el paso a paso de como elaborar la comida o bebida que tanto te gusta, " +
+            " crear lista de compras, la cual te ahorra tiempo y tienes una planificación de compra ordenada, " +
+            " autenticarte por credenciales y restaurar contraseña por email.",
+        ruta: "https://github.com/marlon7piri/foodApp-expo",
+        video: "",
+        tecnologias: [
+            "/icons/react-native.svg",
+            "/icons/mongo.svg",
+            "/icons/express.svg",
+            "/icons/node.svg",
+
+
+
+
+        ],
+        logros: [
+            "1. Crear relaciones entre modelos usuarios, categorías, productos, recetas y contáctos.",
+            "2. Subir la aplicación movil a la Play Store.",
+            "3. Crear drawer navigator y el tab bar navigator.",
+            "4. Crear el metodo de restaurar contraseña mediante un código al correo.",
+            "5. Authentication by credentials.",
+
+
+        ],
+        github: "https://github.com/marlon7piri/foodApp-expo",
+        imagenes: [
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-carrito_rnsdyr.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
+        ],
+    },
+    {
+        id: 9,
+        nombre: "Liga Total",
+        image: "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
+        description: "La API de la aplicación esta desarrollada con Node, Express y MongoDb.Maneja la complejidad de la lógica que está detrás de todas las funciones de la aplicación web.Las imágenes se suben a la plataforma de Cloudinary la cual me devuelve una url y  es guardada en la base de datos, esto mejora el rendimiento de la base de datos. Actualmente trabajo en los métodos de actualización de los modelos que tiene la  aplicación web",
+        ruta: "https://ecommerce-mern-pied.vercel.app",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738602504/oyfatftk40ycsmqqcawl.mp4",
+        tecnologias: [
+            "/icons/react.svg",
+            "/icons/express.svg",
+            "/icons/mongo.svg",
+            "/icons/javascript.svg",
+            "/icons/tailwindcss.svg",
+            "/icons/css.svg",
+            "/icons/html.svg",
+        ],
+        logros: [
+            "1. Crear torneos y registrar equipos al torneo donde puedes ver la tabla de posiciones que se actualiza automáticamente según los resultados de los partidos.",
+            "2. Crear jugadores y asociarlo a un equipo.",
+            "3. Crear equipos.",
+            "4.Crear partidos entre equipos y evaluarlos por goles, asistencias, tarjetas amarillas y rojas.",
+            "5.Ver máximos goleadores y asistentes, los jugadores con tarjetas amarillas y rojas.",
+
+            "6.Crear noticias.",
+
+            "7.Autenticación por credenciales.",
+
+        ],
+        github: "https://github.com/marlon7piri/ecommerce_MERN",
+        imagenes: [
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-carrito_rnsdyr.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
+        ],
+    },
+
     {
         id: 3,
         nombre: "Aplicación de Películas",
@@ -232,32 +322,59 @@ export const dataProyect = [
             "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
         ],
     },
+
+
+
+];
+
+export const dataProyectEnglish = [
     {
-        id: 9,
-        nombre: "Liga Total",
-        image: "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
-        description: "La API de la aplicación esta desarrollada con Node, Express y MongoDb.Maneja la complejidad de la lógica que está detrás de todas las funciones de la aplicación web.Las imágenes se suben a la plataforma de Cloudinary la cual me devuelve una url y  es guardada en la base de datos, esto mejora el rendimiento de la base de datos. Actualmente trabajo en los métodos de actualización de los modelos que tiene la  aplicación web",
-      ruta: "https://ecommerce-mern-pied.vercel.app",
-        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738602504/oyfatftk40ycsmqqcawl.mp4",
+        id: 2,
+        nombre: "Inventory System",
+        image:
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1689617415/fotos_portafolio2/IMG_20230717_130729_xl37ry.jpg",
+        description:
+            "The system has one-to-many relationships between tables: a product has a supplier, and a supplier has many products. Here, you can see ONE-TO-MANY and MANY-TO-ONE relationships."
+            + "A sales system where you can: Create products, create suppliers, manage sales, search by product or customer code, download files in EXCEL and PDF."
+        ,
+        video: "",
+        tecnologias: ["/icons/java.svg", "/icons/mysql.svg", "/icons/netbeans.svg"],
+
+        logros: [
+            "1. I learned to work with Netbeans, making it easier to design and implement the functionality of the desktop application.",
+            "2. I learned to work with OOP where we have users, products, and suppliers.",
+            "3. Implement class encapsulation using setter and getter methods.",
+            "4. Perform queries on relational databases such as MySQL.",
+        ],
+        github: "https://github.com/marlon7piri/SistemaVentaJava",
+    },
+    {
+        id: 10,
+        nombre: "Mobile Household Task Aplication.",
+        image:
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738604792/saminisft40aqtgfzg8h.jpg",
+        description:
+            "Household tasks mobile application developed with React Native that makes it easier to manage the products you have at home, you can:" +
+            " Create contacts and share household tasks with them, " +
+            " create food categories and associate each product with a category, " +
+            " create recipes for food or drinks so you don’t forget the step-by-step process of making your favorite dishes or beverages, " +
+            " create a shopping list, which saves you time and provides an organized purchase plan, " +
+            " authenticate with credentials and reset your password via email.",
+        ruta: "https://ecommerce-mern-pied.vercel.app",
+        video: "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
         tecnologias: [
-            "/icons/react.svg",
-            "/icons/express.svg",
+            "/icons/react-native.svg",
             "/icons/mongo.svg",
-            "/icons/javascript.svg",
-            "/icons/tailwindcss.svg",
-            "/icons/css.svg",
-            "/icons/html.svg",
+            "/icons/express.svg",
+            "/icons/node.svg",
         ],
         logros: [
-            "1. Crear torneos y registrar equipos al torneo donde puedes ver la tabla de posiciones que se actualiza automáticamente según los resultados de los partidos.",
-            "2. Crear jugadores y asociarlo a un equipo.",
-            "3. Crear equipos.",
-            "4.Crear partidos entre equipos y evaluarlos por goles, asistencias, tarjetas amarillas y rojas.",
-            "5.Ver máximos goleadores y asistentes, los jugadores con tarjetas amarillas y rojas.",
+            "1. Create relationships between user, category, product, recipe, and contact models." ,
+            "2. Upload the mobile application to the Play Store." ,
+            "3. Create a drawer navigator and a tab bar navigator." ,
+            "4. Create the password recovery method using a code sent to email." ,
+            "5. Authentication by credentials."
 
-            "6.Crear noticias.",
-
-            "7.Autenticación por credenciales.",
 
         ],
         github: "https://github.com/marlon7piri/ecommerce_MERN",
@@ -270,14 +387,14 @@ export const dataProyect = [
         ],
     },
     {
-        id: 10,
-        nombre: "Mobile Household Task Aplication.",
+        id: 9,
+        nombre: "Total League",
         image:
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
         description:
             "The API of the application is developed with Node, Express and MongoDb. It handles the complexity of the logic behind all the functions of the web application. The images are uploaded to the Cloudinary platform which returns me a url and is stored in the database, this improves the performance of the database. I am currently working on the methods of updating the models that the web application has.",
         ruta: "https://ecommerce-mern-pied.vercel.app",
-        video: "",
+        video: "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
         tecnologias: [
             "/icons/react.svg",
             "/icons/express.svg",
@@ -309,28 +426,41 @@ export const dataProyect = [
             "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
         ],
     },
-];
-
-export const dataProyectEnglish = [
     {
-        id: 2,
-        nombre: "Inventory System",
+        id: 7,
+        nombre: "Inventory Registration and Control Application",
         image:
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1689617415/fotos_portafolio2/IMG_20230717_130729_xl37ry.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
         description:
-            "Desktop application programmed with Java, using Netbeans as the IDE, where you can add products, clients, and suppliers, print data in PDF and Excel formats. I am currently continuing to work on this project.",
-        ruta: "https://github.com/marlon7piri/SistemaVentaJava",
+            "You can view the web application using the following credentials: email: test@gmail.com, password: 1234. Piri is an inventory control application that can be used in restaurants, hotels, and other establishments where inventory management is needed. I was inspired to create Piri because at the restaurant where I currently work as a manager, we perform daily inventory counts of the top 30 most sold products. Every day, we needed to print out sheets for these 30 products, so I decided to use my knowledge to address this problem and eliminate unnecessary paper usage. This way, the process of counting and recording inventory becomes much easier and more efficient, as it can be done from any mobile device.",
+        ruta: "https://clone-invu-app.vercel.app/",
         video: "",
-        tecnologias: ["/icons/java.svg", "/icons/mysql.svg"],
-
-        logros: [
-            "1. I learned to work with Netbeans, making it easier to design and implement the functionality of the desktop application.",
-            "2. I learned to work with OOP where we have users, products, and suppliers.",
-            "3. Implement class encapsulation using setter and getter methods.",
-            "4. Perform queries on relational databases such as MySQL.",
+        tecnologias: [
+            "/icons/next.svg",
+            "/icons/react.svg",
+            "/icons/mongo.svg",
+            "/icons/javascript.svg",
+            "/icons/tailwindcss.svg",
+            "/icons/css.svg",
+            "/icons/html.svg",
         ],
-        github: "https://github.com/marlon7piri/SistemaVentaJava",
+        logros: [
+            "1. Created a Full Stack project working with a NoSQL database such as MongoDB.",
+            "2. Understood the Next.js framework using the new features of Server-Side Rendering.",
+            "3. Implemented user authentication using nextAuth, allowing users to log in with their email and password.",
+            "4. Created private routes based on the user's role.",
+            /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
+            ,
+        ],
+        github: "    https://github.com/marlon7piri/clone-invu_app",
+        imagenes: [
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-mermas_ludvie.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture_lbi0bo.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-productos_kpswqp.jpg",
+            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762276/fotos_portafolio2/clone-invu-login_siwtt0.png",
+        ],
     },
+
     {
         id: 3,
         nombre: "Movie Aplication",
@@ -478,119 +608,9 @@ export const dataProyectEnglish = [
         ],
     },
 
-    {
-        id: 7,
-        nombre: "Inventory Registration and Control Application",
-        image:
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
-        description:
-            "You can view the web application using the following credentials: email: test@gmail.com, password: 1234. Piri is an inventory control application that can be used in restaurants, hotels, and other establishments where inventory management is needed. I was inspired to create Piri because at the restaurant where I currently work as a manager, we perform daily inventory counts of the top 30 most sold products. Every day, we needed to print out sheets for these 30 products, so I decided to use my knowledge to address this problem and eliminate unnecessary paper usage. This way, the process of counting and recording inventory becomes much easier and more efficient, as it can be done from any mobile device.",
-        ruta: "https://clone-invu-app.vercel.app/",
-        video: "",
-        tecnologias: [
-            "/icons/next.svg",
-            "/icons/react.svg",
-            "/icons/mongo.svg",
-            "/icons/javascript.svg",
-            "/icons/tailwindcss.svg",
-            "/icons/css.svg",
-            "/icons/html.svg",
-        ],
-        logros: [
-            "1. Created a Full Stack project working with a NoSQL database such as MongoDB.",
-            "2. Understood the Next.js framework using the new features of Server-Side Rendering.",
-            "3. Implemented user authentication using nextAuth, allowing users to log in with their email and password.",
-            "4. Created private routes based on the user's role.",
-            /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
-            ,
-        ],
-        github: "    https://github.com/marlon7piri/clone-invu_app",
-        imagenes: [
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-mermas_ludvie.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture_lbi0bo.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-productos_kpswqp.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762276/fotos_portafolio2/clone-invu-login_siwtt0.png",
-        ],
-    },
-
-    {
-        id: 9,
-        nombre: "Total League",
-        image:
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
-        description:
-            "The API of the application is developed with Node, Express and MongoDb. It handles the complexity of the logic behind all the functions of the web application. The images are uploaded to the Cloudinary platform which returns me a url and is stored in the database, this improves the performance of the database. I am currently working on the methods of updating the models that the web application has.",
-        ruta: "https://ecommerce-mern-pied.vercel.app",
-        video: "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
-        tecnologias: [
-            "/icons/react.svg",
-            "/icons/express.svg",
-            "/icons/mongo.svg",
-            "/icons/javascript.svg",
-            "/icons/tailwindcss.svg",
-            "/icons/css.svg",
-            "/icons/html.svg",
-        ],
-        logros: [
-            "1. Create tournaments and register teams to the tournament where you can see the standings table that is automatically updated according to the results of the matches.",
-            "2. Create players and associate them to a team.",
-            "3. Create teams.",
-            "4. Create matches between teams and evaluate them by goals, assists, yellow and red cards.",
-
-            "5. View top scorers and assists, players with yellow and red cards.",
-            "6.Create news.",
-
-            "7. Authentication by credentials.",
 
 
-        ],
-        github: "https://github.com/marlon7piri/ecommerce_MERN",
-        imagenes: [
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-carrito_rnsdyr.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
-        ],
-    },
-     {
-        id: 10,
-        nombre: "Mobile Household Task Aplication.",
-        image:
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
-        description:
-            "The API of the application is developed with Node, Express and MongoDb. It handles the complexity of the logic behind all the functions of the web application. The images are uploaded to the Cloudinary platform which returns me a url and is stored in the database, this improves the performance of the database. I am currently working on the methods of updating the models that the web application has.",
-        ruta: "https://ecommerce-mern-pied.vercel.app",
-        video: "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
-        tecnologias: [
-            "/icons/react.svg",
-            "/icons/express.svg",
-            "/icons/mongo.svg",
-            "/icons/javascript.svg",
-            "/icons/tailwindcss.svg",
-            "/icons/css.svg",
-            "/icons/html.svg",
-        ],
-        logros: [
-            "1. Create tournaments and register teams to the tournament where you can see the standings table that is automatically updated according to the results of the matches.",
-            "2. Create players and associate them to a team.",
-            "3. Create teams.",
-            "4. Create matches between teams and evaluate them by goals, assists, yellow and red cards.",
-
-            "5. View top scorers and assists, players with yellow and red cards.",
-            "6.Create news.",
-
-            "7. Authentication by credentials.",
 
 
-        ],
-        github: "https://github.com/marlon7piri/ecommerce_MERN",
-        imagenes: [
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-carrito_rnsdyr.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg",
-            "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
-        ],
-    },
+
 ];

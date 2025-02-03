@@ -11,7 +11,8 @@ import TheTitle from './components/TheTitle'
 
 const Home = () => {
   return (
-    <div className='w-full min-h-screen'>
+    <div >
+      
       <Header/>
       <SobreMi/>
       <Skills/>
