@@ -1,13 +1,17 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import style from "./proyect.details.module.css";
-import { dataProyect } from "@/app/components/Project";
+import { dataProyect } from "@/app/data/proyectos"
 import Image from "next/image";
 import TheTitle from "@/app/components/TheTitle";
 import { PrimaryButton } from "@/app/components/PrimaryButton";
+import ModalVideo from "src/app/components/ModalVideo";
 
 const Detalles = ({ params }) => {
   const [proyecto, setProyecto] = useState([]);
+  const [urlvideo, setUrlVideo] = useState(null)
+  const [openmodal, setOpenModal] = useState(false)
+
   const [loading, setLoading] = useState(false);
   const [rutaImageSelected, setRutaImageSelected] = useState("");
   const idProyecto = params.id;
@@ -15,8 +19,14 @@ const Detalles = ({ params }) => {
   useEffect(() => {
     setLoading(true);
     const proyectfilter = dataProyect.filter((item) => {
-      return item.id === parseInt(idProyecto);
+
+      if (item.id === parseInt(idProyecto)) {
+        setUrlVideo(item.video)
+        return item
+      }
+
     });
+
 
     setProyecto(proyectfilter);
     setLoading(false);
@@ -26,22 +36,29 @@ const Detalles = ({ params }) => {
     setRutaImageSelected(ruta);
   };
 
+
+  const openModal = () => {
+    setOpenModal(!openmodal)
+  }
+
   return (
-    <div className="w-full text-complementario">
+    <div className="w-full text-complementario relative">
       <div className="text-center">
         <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} medium />
       </div>
       <div className={style.container_buttons}>
         <PrimaryButton />
         <PrimaryButton islink={proyecto.map((item) => item.ruta)} />
+        
+        <button onClick={() => openModal()}  className=" w-[100px] h-[50px] text-red bg-complementario p-3 rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario text-2xl "> <ion-icon name="logo-youtube"/></button>
         <a
           href={proyecto.map((item) => item.github)}
           target="_blank"
-          className="w-[200px] h-[50px] text-complementario p-3 rounded-md flex justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 ml-4"
+          className="w-[100px] h-[50px] text-complementario p-3 rounded-md flex justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario z-50 ml-4 text-2xl"
         >
           {" "}
           <ion-icon name="logo-github" />
-          <span className="ml-2">Código</span>
+          
         </a>
       </div>
 
@@ -82,6 +99,7 @@ const Detalles = ({ params }) => {
               });
             })}
           </div>
+          {openmodal && <ModalVideo url={urlvideo} onClick={openModal} />}
         </div>
       </div>
     </div>

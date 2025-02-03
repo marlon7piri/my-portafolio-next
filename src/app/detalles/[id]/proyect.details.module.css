@@ -123,7 +123,7 @@
       gap: 4px;
       justify-content: center;
       align-items: center;
-      background-color: red;
+     
     }
   }
   @media (1200px >= width <= 1370px) {
@@ -148,17 +148,13 @@
   align-items: center;
   padding: 1rem;
 }
-.container_buttons > * {
-  margin-top: 1rem;
-}
+
 
 @media (width<600px) {
-  .container_buttons {
-    flex-direction: column;
-  }
+  
   .container_buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 4px;
     justify-content: center;
     align-items: center;

@@ -45,7 +45,7 @@ const tecnologies = [
   {
     tecnologia: "java",
     path: "/icons/java.svg",
-    size: 50,
+    size: 80,
   },
   {
     tecnologia: "aws",
