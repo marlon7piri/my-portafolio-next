@@ -69,6 +69,7 @@ export const Contacto = () => {
               autoComplete="false"
               onSubmit={handleSubmit}
               id="contacto"
+              className="z-[500]"
             >
               <div class="form-group">
               <label for="email">E-mail</label>

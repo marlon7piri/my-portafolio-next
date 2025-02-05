@@ -171,6 +171,16 @@ body::before {
   animation-duration: 0.5s;
 }
 
+
+.sobre_mi_parrafo{
+  width:60%;
+  border-left:3px solid #1289A7;
+  padding: 1rem;
+  z-index: 50;
+  position: relative;
+ 
+}
+
 @keyframes l17 {
   100% {
     transform: rotate(1turn);
@@ -218,6 +228,15 @@ body::before {
   .icono_close {
     font-size: 30px;
     display: block;
+  }
+
+  .sobre_mi_parrafo{
+    width:90%;
+    border-left:3px solid #1289A7;
+    padding: 1rem;
+    z-index: 50;
+    position: relative;
+   
   }
 }
 

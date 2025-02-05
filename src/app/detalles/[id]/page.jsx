@@ -74,6 +74,7 @@ const Detalles = ({ params }) => {
                     width={44}
                     height={44}
                     className={style.tecnology}
+                    key={tecno}
                   />
                 );
               });

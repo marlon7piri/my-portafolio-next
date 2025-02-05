@@ -16,15 +16,15 @@ export const ContactoEnglish = () => {
 
   async function onSubmit(values) {
     setIsLoading(true);
-    setError(null); // Clear previous errors when a new request starts
-    /* https://localhost:3000/api/email */
-    /* https://marlonrd.vercel.app/api/email */
+    setError(null); 
     try {
+      console.log(process.env.RESEND_API_KEY)
       const response = await fetch("https://marlonrd.vercel.app/api/email", {
         method: "POST",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
+          
         },
         body: JSON.stringify(values),
       });
@@ -40,7 +40,7 @@ export const ContactoEnglish = () => {
       // ...
     } catch (error) {
       setError(error.message);
-      toast.success(error);
+      toast.success(error.message);
     } finally {
       setIsLoading(false);
     }
@@ -67,6 +67,7 @@ export const ContactoEnglish = () => {
               autoComplete="false"
               onSubmit={handleSubmit}
               id="contacto_english"
+               className="z-[500]"
             >
               <div class="form-group">
                 <label for="email">E-mail</label>

@@ -20,7 +20,8 @@ module.exports = {
       "red":"red",
       "orange":"orange",
       "green":"lime"
-    }
+    },
+   
   },
   plugins: [],
 }

@@ -200,7 +200,7 @@ export const dataProyect = [
         description:
             "Página Web llamado drinksfizz, servicio que brinda bartender y paquetes para eventos y fiestas privadas en Panama, tambien pueden registrarse bartenders que quieran estar en la Base de Datos de la página.",
         ruta: "https://drinksfizz.com",
-        video: "",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738720164/l59xvq0e7owwyazdot1o.mp4",
         tecnologias: [
             "/icons/javascript.svg",
             "/icons/react.svg",
@@ -262,7 +262,7 @@ export const dataProyect = [
         description:
             "Puede ver la aplicación web utilizando las siguientes credenciales email: test@gmail.com, password: 1234. Piri es una aplicación  de control de inventarios que puede ser utilizada tanto en restaurantes y hoteles, como en otros establecimientos donde sea necesario hacer inventarios, me inspire en crear Piri ya que en el restaurante donde trabajo actualmente como encargado, diariamente realizan conteos de inventarios de los 30 productos más vendidos. Y todos los días se necesitaban hacer impresiones en hojas de esos 30 productos, entonces tuve la idea de implementar mis conocimientos para reserver ese problema y ese gasto de hojas innecesarias y facilitar a los trabajadores este proceso de conteo y de registro pudiendo hacer esta tarea mucho más sencilla ya que pueden realizarla desde cualquier dispositivo mobile. ",
         ruta: "https://clone-invu-app.vercel.app/",
-        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738598514/vkj34zzgihbbdu1fspwl.mp4",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738776834/sahrq4qluxtnwbtstupo.mp4",
         tecnologias: [
             "/icons/next.svg",
             "/icons/react.svg",
@@ -434,7 +434,7 @@ export const dataProyectEnglish = [
         description:
             "You can view the web application using the following credentials: email: test@gmail.com, password: 1234. Piri is an inventory control application that can be used in restaurants, hotels, and other establishments where inventory management is needed. I was inspired to create Piri because at the restaurant where I currently work as a manager, we perform daily inventory counts of the top 30 most sold products. Every day, we needed to print out sheets for these 30 products, so I decided to use my knowledge to address this problem and eliminate unnecessary paper usage. This way, the process of counting and recording inventory becomes much easier and more efficient, as it can be done from any mobile device.",
         ruta: "https://clone-invu-app.vercel.app/",
-        video: "",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738776834/sahrq4qluxtnwbtstupo.mp4",
         tecnologias: [
             "/icons/next.svg",
             "/icons/react.svg",
@@ -554,7 +554,7 @@ export const dataProyectEnglish = [
         description:
             "Website called DrinksFizz, a service that offers bartenders and packages for events and private parties in Panama. Bartenders who want to be included in the website's database can also register.",
         ruta: "https://drinksfizz.com",
-        video: "",
+        video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738720164/l59xvq0e7owwyazdot1o.mp4",
         tecnologias: [
             "/icons/javascript.svg",
             "/icons/react.svg",
