@@ -18,7 +18,6 @@ export const ContactoEnglish = () => {
     setIsLoading(true);
     setError(null); 
     try {
-      console.log(process.env.RESEND_API_KEY)
       const response = await fetch("https://marlonrd.vercel.app/api/email", {
         method: "POST",
         headers: {

@@ -18,9 +18,7 @@ export const Contacto = () => {
 
    
     setIsLoading(true);
-    setError(null); // Clear previous errors when a new request starts
-/* https://localhost:3000/api/email */
-/* https://marlonrd.vercel.app/api/email */
+    setError(null); 
    try {
       const response = await fetch("https://marlonrd.vercel.app/api/email", {
         method: "POST",
