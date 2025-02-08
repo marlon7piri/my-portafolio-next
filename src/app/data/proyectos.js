@@ -261,7 +261,7 @@ export const dataProyect = [
             "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
         description:
             "Puede ver la aplicación web utilizando las siguientes credenciales email: test@gmail.com, password: 1234. Piri es una aplicación  de control de inventarios que puede ser utilizada tanto en restaurantes y hoteles, como en otros establecimientos donde sea necesario hacer inventarios, me inspire en crear Piri ya que en el restaurante donde trabajo actualmente como encargado, diariamente realizan conteos de inventarios de los 30 productos más vendidos. Y todos los días se necesitaban hacer impresiones en hojas de esos 30 productos, entonces tuve la idea de implementar mis conocimientos para reserver ese problema y ese gasto de hojas innecesarias y facilitar a los trabajadores este proceso de conteo y de registro pudiendo hacer esta tarea mucho más sencilla ya que pueden realizarla desde cualquier dispositivo mobile. ",
-        ruta: "https://clone-invu-app.vercel.app/",
+        ruta: "https://piriapp.vercel.app/",
         video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738776834/sahrq4qluxtnwbtstupo.mp4",
         tecnologias: [
             "/icons/next.svg",
@@ -433,7 +433,7 @@ export const dataProyectEnglish = [
             "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
         description:
             "You can view the web application using the following credentials: email: test@gmail.com, password: 1234. Piri is an inventory control application that can be used in restaurants, hotels, and other establishments where inventory management is needed. I was inspired to create Piri because at the restaurant where I currently work as a manager, we perform daily inventory counts of the top 30 most sold products. Every day, we needed to print out sheets for these 30 products, so I decided to use my knowledge to address this problem and eliminate unnecessary paper usage. This way, the process of counting and recording inventory becomes much easier and more efficient, as it can be done from any mobile device.",
-        ruta: "https://clone-invu-app.vercel.app/",
+        ruta: "https://piriapp.vercel.app/",
         video: "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738776834/sahrq4qluxtnwbtstupo.mp4",
         tecnologias: [
             "/icons/next.svg",
