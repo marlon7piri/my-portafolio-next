@@ -8,7 +8,7 @@ import { ContactoEnglish } from "../components/componentsEnglish/ContactoEnglish
 
 const HomeEnglish = () => {
   return (
-    <div className="w-full min-h-screen">
+    <div>
       <HeaderEnglish />
       <SobreMiEnglish />
       <SkillsEnglish />

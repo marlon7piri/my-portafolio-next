@@ -10,8 +10,8 @@ import { dataProyectEnglish } from "@/app/data/proyectos";
 
 const Detalles = ({ params }) => {
   const [proyecto, setProyecto] = useState([]);
-  const [urlvideo, setUrlVideo] = useState(null)
-  const [openmodal, setOpenModal] = useState(false)
+  const [urlvideo, setUrlVideo] = useState(null);
+  const [openmodal, setOpenModal] = useState(false);
 
   const [loading, setLoading] = useState(false);
   const [rutaImageSelected, setRutaImageSelected] = useState("");
@@ -20,14 +20,11 @@ const Detalles = ({ params }) => {
   useEffect(() => {
     setLoading(true);
     const proyectfilter = dataProyectEnglish.filter((item) => {
-
       if (item.id === parseInt(idProyecto)) {
-        setUrlVideo(item.video)
-        return item
+        setUrlVideo(item.video);
+        return item;
       }
-
     });
-
 
     setProyecto(proyectfilter);
     setLoading(false);
@@ -37,21 +34,26 @@ const Detalles = ({ params }) => {
     setRutaImageSelected(ruta);
   };
 
-
   const openModal = () => {
-    setOpenModal(!openmodal)
-  }
+    setOpenModal(!openmodal);
+  };
 
   return (
-    <div className="w-full text-complementario">
+    <div className="w-full text-complementario relative">
       <div className="text-center">
         <TheTitle texto={`${proyecto.map((item) => item.nombre)}`} medium />
       </div>
       <div className={style.container_buttons}>
         <PrimaryButtonEnglish />
         <PrimaryButtonEnglish islink={proyecto.map((item) => item.ruta)} />
-        
-        <button onClick={() => openModal()}  className=" w-[100px] h-[50px] text-red bg-complementario p-3 rounded-md flex  justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario text-2xl "> <ion-icon name="logo-youtube"/></button>
+
+        <button
+          onClick={() => openModal()}
+          className=" w-[100px] h-[50px] text-red bg-complementario p-3 rounded-md flex  justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario text-2xl "
+        >
+          {" "}
+          <ion-icon name="logo-youtube" />
+        </button>
         <a
           href={proyecto.map((item) => item.github)}
           target="_blank"
@@ -59,7 +61,6 @@ const Detalles = ({ params }) => {
         >
           {" "}
           <ion-icon name="logo-github" />
-          
         </a>
       </div>
 
