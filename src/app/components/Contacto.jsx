@@ -15,11 +15,9 @@ export const Contacto = () => {
   const [mensaje, setMensaje] = useState("");
 
   async function onSubmit(values) {
-
-   
     setIsLoading(true);
-    setError(null); 
-   try {
+    setError(null);
+    try {
       const response = await fetch("https://marlonrd.vercel.app/api/email", {
         method: "POST",
         headers: {
@@ -29,14 +27,13 @@ export const Contacto = () => {
         body: JSON.stringify(values),
       });
 
-
       if (!response.ok) {
         throw new Error("Failed to submit the data. Please try again.");
       }
 
       // Handle response if necessary
       const data = await response.json();
-      
+
       toast.success("Mensaje enviado");
       // ...
     } catch (error) {
@@ -45,14 +42,18 @@ export const Contacto = () => {
     } finally {
       setIsLoading(false);
     }
-   
   }
   return (
     <div className="section">
-      <TheTitle texto={'Contáctame'}/>
-      <p className="max-w-[350px] text-complementario mb-10">Si tienes algún proyecto en mente o deseas que trabajemos juntos, no dudes en escribirme.</p>
+      <div className="mt-20">
+        <TheTitle texto={"Contáctame"} />
+      </div>
+
+      <p className="max-w-[350px] text-complementario mb-10">
+        Si tienes algún proyecto en mente o deseas que trabajemos juntos, no
+        dudes en escribirme.
+      </p>
       <div class="form-container">
-      
         <Formik
           validationSchema={SchemaValidationFormContact}
           onSubmit={async (values, actions) => {
@@ -70,7 +71,7 @@ export const Contacto = () => {
               className="z-[500]"
             >
               <div class="form-group">
-              <label for="email">E-mail</label>
+                <label for="email">E-mail</label>
                 <input
                   required=""
                   name="email"

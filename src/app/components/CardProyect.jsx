@@ -6,7 +6,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const CardProyect = ({ item, index }) => {
-
   const scrollRef = useRef(null);
   return (
     <motion.div
@@ -18,10 +17,9 @@ const CardProyect = ({ item, index }) => {
       ref={scrollRef}
       className="card_proyectos  flex flex-col justify-between"
       key={item.id}
-    >   <Link
-      href={`/detalles/${item.id}`}
-
     >
+      {" "}
+      <Link href={`/detalles/${item.id}`}>
         <div className="w-full h-full relative">
           <Image
             src={item.image}
@@ -30,20 +28,17 @@ const CardProyect = ({ item, index }) => {
             className="object-cover w-[400px] h-[200px]"
             alt={`Foto de ${item.nombre}`}
           />
-          <div className="absolute top-1 right-2 bg-secundario  rounded-full p-2  w-16 h-16 flex justify-center items-center ">
-            <span className=" text-4xl text-complementario font-semibold">{index}</span>
+          <div className="absolute top-1 right-2 bg-secundario bg-opacity-70  shadow-primario shadow-inner  rounded-full p-2  w-16 h-16 flex justify-center items-center ">
+            <span className=" text-4xl text-complementario font-semibold">
+              {index}
+            </span>
           </div>
         </div>
-
 
         <div className="flex flex-col gap-2 p-4 justify-center items-center">
           <span className="text-complementario font-light text-[18px]  block mt-4">
             {item.nombre}
           </span>
-
-
-
-
         </div>
       </Link>
     </motion.div>

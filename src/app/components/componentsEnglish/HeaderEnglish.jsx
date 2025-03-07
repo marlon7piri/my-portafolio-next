@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import style from "../navbar.module.css";
 import "../burbujas.css";
-import NavEnglish from "./components/NavEnglish";
+import NavEnglish from "./NavEnglish";
 
 export const HeaderEnglish = () => {
   return (

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
-import style from "../../navbar.module.css";
+import style from "@/app/components/navbar.module.css";
 import { usePathname } from "next/navigation";
 
 export default function NavEnglish() {
@@ -63,6 +63,9 @@ export default function NavEnglish() {
           </Link>
           <a href="#sobre_mi_english" onClick={handelToggle}>
             About Me
+          </a>
+          <a href="#experiencia" onClick={handelToggle}>
+            Experience
           </a>
 
           <a href="#skills_english" onClick={handelToggle}>

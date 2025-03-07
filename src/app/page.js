@@ -1,27 +1,26 @@
-import React from 'react'
+import React from "react";
 
-import Header from './components/Header'
-import Skills from './components/Skills'
-import Project from './components/Project'
-import SobreMi from './components/SobreMi'
-import { Footter } from './components/Footter'
-import { Contacto } from './components/Contacto'
-import TheTitle from './components/TheTitle'
-
+import Header from "./components/Header";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import SobreMi from "./components/SobreMi";
+import { Footter } from "./components/Footter";
+import { Contacto } from "./components/Contacto";
+import { Experiencia } from "./components/Experiencia";
 
 const Home = () => {
   return (
-    <div >
-
+    <div>
       <Header />
       <SobreMi />
-      <Skills />
+      <Experiencia />
       <Project />
+      <Skills />
 
       <Contacto />
       <Footter />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

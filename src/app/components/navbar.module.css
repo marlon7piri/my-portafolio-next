@@ -9,7 +9,7 @@
 
 .contenedor_navegacion_bajando {
   width: 100%;
-  background-color: rgba(2, 2, 2, 0.587);
+  background-color: rgba(2, 2, 2, 0.918);
   box-shadow: inset 0px 10px 25px -3px #1289a7;
   position: fixed;
   top: 0;
@@ -85,7 +85,6 @@
 
   transition: 10s ease;
 }
-
 
 @keyframes animationluna {
   0% {

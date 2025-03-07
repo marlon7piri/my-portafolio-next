@@ -12,6 +12,7 @@ export default function Nav() {
   const [show, setShow] = useState(true);
   const [isGoDown, setIsGoDown] = useState(0);
   const path = usePathname();
+
   const handelToggle = () => {
     document.getElementById("menu").classList.toggle("show_menu");
     setShow(!show);
@@ -63,6 +64,9 @@ export default function Nav() {
           </Link>
           <a href="#sobre_mi" onClick={handelToggle}>
             Sobre Mi
+          </a>
+          <a href="#experiencia" onClick={handelToggle}>
+            Experiencia
           </a>
 
           <a href="#skills" onClick={handelToggle}>

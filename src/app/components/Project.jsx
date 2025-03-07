@@ -6,15 +6,13 @@ import TheTitle from "./TheTitle";
 import CardProyect from "./CardProyect";
 import { dataProyect } from "../data/proyectos";
 
-
-
 const Project = () => {
   return (
     <div className="section">
       <div className="flex mt-20">
         <TheTitle texto="Proyectos" />
       </div>
-      <p className="max-w-[70%] text-2xl text-complementario mb-20">
+      <p className="max-w-[70%] text-xl text-complementario mb-20">
         Aquí podrá ver mis proyectos trabajados y el aprendizaje en el proceso.
         Espero que les guste.
       </p>
@@ -24,11 +22,9 @@ const Project = () => {
       justify-center  items-center "
         id="proyects"
       >
-        {dataProyect
-          .map((tecno, index) => {
-            return <CardProyect item={tecno} key={tecno.id} index={index + 1} />;
-          })
-          }
+        {dataProyect.map((tecno, index) => {
+          return <CardProyect item={tecno} key={tecno.id} index={index + 1} />;
+        })}
       </div>
     </div>
   );

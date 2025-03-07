@@ -77,7 +77,9 @@ const tecnologies = [
 const SkillsEnglish = () => {
   return (
     <div className="section">
-      <TheTitle texto="Skills" />
+      <div className="mt-20">
+        <TheTitle texto="Skills" />
+      </div>
 
       <div
         className=" w-[90%]  h-full flex flex-wrap gap-20 
@@ -92,9 +94,7 @@ const SkillsEnglish = () => {
                 className={
                   tecno.size < 70 ? "text-orange mt-2" : "text-green mt-2"
                 }
-              >
-                {tecno.size}%
-              </p>
+              ></p>
             </div>
           );
         })}

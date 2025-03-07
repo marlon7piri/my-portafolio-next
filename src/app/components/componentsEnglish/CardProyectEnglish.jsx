@@ -17,11 +17,9 @@ const CardProyectEnglish = ({ item, index }) => {
       ref={scrollRef}
       className="card_proyectos  flex flex-col justify-between"
       key={item.id}
-    > <Link
-      href={`/en/detalles/${item.id}`}
-      className=""
     >
-
+      {" "}
+      <Link href={`/en/detalles/${item.id}`} className="">
         <div className="w-full h-full">
           <Image
             src={item.image}
@@ -30,8 +28,10 @@ const CardProyectEnglish = ({ item, index }) => {
             className="object-cover w-[400px] h-[200px]"
             alt={`Picture of ${item.nombre}`}
           />
-          <div className="absolute top-1 right-2 bg-secundario  rounded-full p-2  w-16 h-16 flex justify-center items-center">
-            <span className=" text-4xl text-complementario font-semibold">{index}</span>
+          <div className="absolute top-1 right-2 bg-secundario bg-opacity-70  shadow-primario shadow-inner  rounded-full p-2  w-16 h-16 flex justify-center items-center">
+            <span className=" text-4xl text-complementario font-semibold">
+              {index}
+            </span>
           </div>
         </div>
 
@@ -39,10 +39,6 @@ const CardProyectEnglish = ({ item, index }) => {
           <span className="text-complementario font-light text-[18px]  block mt-4">
             {item.nombre}
           </span>
-
-          
-
-
         </div>
       </Link>
     </motion.div>

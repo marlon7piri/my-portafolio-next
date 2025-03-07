@@ -16,14 +16,13 @@ export const ContactoEnglish = () => {
 
   async function onSubmit(values) {
     setIsLoading(true);
-    setError(null); 
+    setError(null);
     try {
       const response = await fetch("https://marlonrd.vercel.app/api/email", {
         method: "POST",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
-          
         },
         body: JSON.stringify(values),
       });
@@ -45,8 +44,9 @@ export const ContactoEnglish = () => {
     }
   }
   return (
-    <div className="section">
+    <div className="section ">
       <TheTitle texto={"Contact Me"} />
+
       <p className="max-w-[350px] text-complementario mb-10">
         If you have a project in mind or would like to work together, feel free
         to reach out to me.
@@ -66,7 +66,7 @@ export const ContactoEnglish = () => {
               autoComplete="false"
               onSubmit={handleSubmit}
               id="contacto_english"
-               className="z-[500]"
+              className="z-[500]"
             >
               <div class="form-group">
                 <label for="email">E-mail</label>

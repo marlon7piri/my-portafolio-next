@@ -77,7 +77,9 @@ const tecnologies = [
 const Skills = () => {
   return (
     <div className="section">
-      <TheTitle texto="Habilidades" />
+      <div className="flex mt-20">
+        <TheTitle texto="Habilidades" />
+      </div>
 
       <div
         className=" w-[90%]  h-full flex flex-wrap gap-20 
@@ -88,9 +90,11 @@ const Skills = () => {
           return (
             <div className="card_skills" key={tecno.path}>
               <Image src={tecno.path} width={160} height={160} />
-              <p className={tecno.size < 70 ? "text-orange mt-2" : "text-green mt-2"}>
-                {tecno.size}%
-              </p>
+              <p
+                className={
+                  tecno.size < 70 ? "text-orange mt-2" : "text-green mt-2"
+                }
+              ></p>
             </div>
           );
         })}

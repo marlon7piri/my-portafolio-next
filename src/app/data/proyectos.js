@@ -108,7 +108,7 @@ export const dataProyect = [
     image:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture-2_tu4jib.jpg",
     description:
-      "Puede ver la aplicación web utilizando las siguientes credenciales email: test1@gmail.com, password: 12345. Piri es una aplicación  de control de inventarios que puede ser utilizada tanto en restaurantes y hoteles, como en otros establecimientos donde sea necesario hacer inventarios, me inspire en crear Piri ya que en el restaurante donde trabajo actualmente como encargado, diariamente realizan conteos de inventarios de los 30 productos más vendidos. Y todos los días se necesitaban hacer impresiones en hojas de esos 30 productos, entonces tuve la idea de implementar mis conocimientos para reserver ese problema y ese gasto de hojas innecesarias y facilitar a los trabajadores este proceso de conteo y de registro pudiendo hacer esta tarea mucho más sencilla ya que pueden realizarla desde cualquier dispositivo mobile. ",
+      "Puede ver la aplicación web utilizando las siguientes credenciales email: test1@gmail.com, password: 12345. Piri es una aplicación  de control de inventarios que puede ser utilizada tanto en restaurantes y hoteles, como en otros establecimientos donde sea necesario hacer inventarios, me inspire en crear Piri ya que en el restaurante donde trabajo actualmente como encargado, diariamente realizan conteos de inventarios de los 30 productos más vendidos. Y todos los días se necesitaban hacer impresiones en hojas de esos 30 productos, entonces tuve la idea de implementar mis conocimientos para reserver ese problema y ese gasto de hojas innecesarias y facilitar a los trabajadores este proceso de conteo y de registro pudiendo hacer esta tarea mucho más sencilla ya que pueden realizarla desde cualquier dispositivo móvil. ",
     ruta: "https://piriapp.vercel.app/",
     video:
       "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738776834/sahrq4qluxtnwbtstupo.mp4",
@@ -286,7 +286,7 @@ export const dataProyect = [
     ],
   },
 
-  {
+  /* {
     id: 8,
     nombre: "E-Commerce de carteras con Stripe",
     image:
@@ -318,7 +318,7 @@ export const dataProyect = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-stripe_gltblp.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-about_trxba9.jpg",
     ],
-  },
+  }, */
 ];
 
 export const dataProyectEnglish = [
