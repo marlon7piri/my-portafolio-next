@@ -28,8 +28,8 @@ export const ExperienciaEnglish = () => {
           applications more scalable and efficient.
         </p>
         <p className="text-xl">
-          Working with technologies such as:
-          <span className="text-primario">Next.js, React.js, MongoDb</span>
+          Working with technologies such as:{" "}
+          <span className="text-primario"> Next.js, React.js, MongoDb</span>
         </p>
       </div>
     </div>
