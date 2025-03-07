@@ -5,7 +5,7 @@ export const ExperienciaEnglish = () => {
   return (
     <div className="section ">
       <div className="flex ">
-        <TheTitle texto="Experiencia" />
+        <TheTitle texto="Experience" />
       </div>
 
       <div className="text-complementario "></div>
