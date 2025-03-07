@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export const PrimaryButton = ({ islink }) => {
   const path = usePathname();
+  const router = useRouter();
 
   if (islink) {
     return (
@@ -13,16 +14,19 @@ export const PrimaryButton = ({ islink }) => {
         href={islink}
         target="_blank"
       >
-         Proyecto
+        Proyecto
       </a>
     );
   } else {
     return (
-      <Link href={path.includes === "/en" ? "/en/#proyects" : "/#proyects"}>
-        <button className=" w-[100px] h-[50px] text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario ">
-          Atrás
-        </button>
-      </Link>
+      <button
+        onClick={() =>
+          router.push(path.includes === "/en" ? "/en/#proyects" : "/#proyects")
+        }
+        className=" w-[100px] h-[50px] text-complementario  rounded-md flex gap-2 justify-center items-center  shadow-inner shadow-complementario hover:scale-105 trasition duration-500 cursor-pointer hover:shadow-primario "
+      >
+        Atrás
+      </button>
     );
   }
 };
