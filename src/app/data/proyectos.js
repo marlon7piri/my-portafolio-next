@@ -70,7 +70,7 @@ export const dataProyect = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
     description:
       "La API de la aplicación esta desarrollada con Node, Express y MongoDb.Maneja la complejidad de la lógica que está detrás de todas las funciones de la aplicación web.Las imágenes se suben a la plataforma de Cloudinary la cual me devuelve una url y  es guardada en la base de datos, esto mejora el rendimiento de la base de datos. Actualmente trabajo en los métodos de actualización de los modelos que tiene la  aplicación web",
-    ruta: "https://ecommerce-mern-pied.vercel.app",
+    ruta: "https://ligatotal.vercel.app/auth/login",
     video:
       "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738602504/oyfatftk40ycsmqqcawl.mp4",
     tecnologias: [
@@ -93,7 +93,7 @@ export const dataProyect = [
 
       "7.Autenticación por credenciales.",
     ],
-    github: "https://github.com/marlon7piri/ecommerce_MERN",
+    github: "https://ligatotal.vercel.app/auth/login",
     imagenes: [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
@@ -129,7 +129,7 @@ export const dataProyect = [
       /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
       ,
     ],
-    github: "    https://github.com/marlon7piri/clone-invu_app",
+    github: "https://github.com/marlon7piri/PiriApp",
     imagenes: [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-mermas_ludvie.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture_lbi0bo.jpg",
@@ -354,7 +354,7 @@ export const dataProyectEnglish = [
       " create recipes for food or drinks so you don’t forget the step-by-step process of making your favorite dishes or beverages, " +
       " create a shopping list, which saves you time and provides an organized purchase plan, " +
       " authenticate with credentials and reset your password via email.",
-    ruta: "https://ecommerce-mern-pied.vercel.app",
+    ruta: "https://github.com/marlon7piri/foodApp-expo",
     video:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
     tecnologias: [
@@ -370,7 +370,7 @@ export const dataProyectEnglish = [
       "4. Create the password recovery method using a code sent to email.",
       "5. Authentication by credentials.",
     ],
-    github: "https://github.com/marlon7piri/ecommerce_MERN",
+    github: "https://github.com/marlon7piri/foodApp-expo",
     imagenes: [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
@@ -386,7 +386,7 @@ export const dataProyectEnglish = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
     description:
       "The API of the application is developed with Node, Express and MongoDb. It handles the complexity of the logic behind all the functions of the web application. The images are uploaded to the Cloudinary platform which returns me a url and is stored in the database, this improves the performance of the database. I am currently working on the methods of updating the models that the web application has.",
-    ruta: "https://ecommerce-mern-pied.vercel.app",
+    ruta: "https://ligatotal.vercel.app/auth/login",
     video:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
     tecnologias: [
@@ -409,7 +409,7 @@ export const dataProyectEnglish = [
 
       "7. Authentication by credentials.",
     ],
-    github: "https://github.com/marlon7piri/ecommerce_MERN",
+    github: "https://github.com/marlon7piri/uip_app",
     imagenes: [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
@@ -445,7 +445,7 @@ export const dataProyectEnglish = [
       /*  "4. Hacer relaciones entre colecciones one-to-many, one-to-one, haciendo que cuando crees una merma de un producto automaticamente afecte al producto específico, y que devuelva los productos que pertenecen al restaurante del usuario que ha creado sesión. Puede ver la aplicación utilizando las siguientes credenciales email: test@gmail.com, password: 1234" */
       ,
     ],
-    github: "    https://github.com/marlon7piri/clone-invu_app",
+    github: "   https://github.com/marlon7piri/PiriApp",
     imagenes: [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718762275/fotos_portafolio2/clone-invu-mermas_ludvie.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1711934150/fotos_portafolio2/clone-invu-picture_lbi0bo.jpg",
