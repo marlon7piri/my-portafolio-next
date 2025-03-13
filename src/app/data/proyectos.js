@@ -70,7 +70,7 @@ export const dataProyect = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
     description:
       "La API de la aplicación esta desarrollada con Node, Express y MongoDb.Maneja la complejidad de la lógica que está detrás de todas las funciones de la aplicación web.Las imágenes se suben a la plataforma de Cloudinary la cual me devuelve una url y  es guardada en la base de datos, esto mejora el rendimiento de la base de datos. Actualmente trabajo en los métodos de actualización de los modelos que tiene la  aplicación web",
-    ruta: "https://ligatotal.vercel.app/auth/login",
+    ruta: "https://ligastotal.com/auth/login",
     video:
       "https://res.cloudinary.com/dxi9fwjsu/video/upload/v1738602504/oyfatftk40ycsmqqcawl.mp4",
     tecnologias: [
@@ -93,7 +93,7 @@ export const dataProyect = [
 
       "7.Autenticación por credenciales.",
     ],
-    github: "https://ligatotal.vercel.app/auth/login",
+    github: "https://github.com/marlon7piri/uip_app",
     imagenes: [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-productos_zlzpe2.jpg",
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1718764542/fotos_portafolio2/carteras-slider_shmiib.jpg",
@@ -386,7 +386,7 @@ export const dataProyectEnglish = [
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738600855/jugadores/mtgnhwpcafvtzkhgb0wk.png",
     description:
       "The API of the application is developed with Node, Express and MongoDb. It handles the complexity of the logic behind all the functions of the web application. The images are uploaded to the Cloudinary platform which returns me a url and is stored in the database, this improves the performance of the database. I am currently working on the methods of updating the models that the web application has.",
-    ruta: "https://ligatotal.vercel.app/auth/login",
+    ruta: "https://ligastotal.com/auth/login",
     video:
       "https://res.cloudinary.com/dxi9fwjsu/image/upload/v1738599648/rykedww25xapnlqesjjb.png",
     tecnologias: [
